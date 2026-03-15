@@ -8,9 +8,9 @@
     <div class="news-item">
         <div class="news-date">{{ .date }}</div>
         <div class="news-content">
-            <div class="news-title">{{ index (split .content " - ") 0 | markdownify }}</div>
+            <div class="news-title">{{ index (split .content " - ") 0 | safeHTML }}</div>
             {{ if gt (len (split .content " - ")) 1 }}
-            <div>{{ index (split .content " - ") 1 | markdownify }}</div>
+            <div>{{ index (split .content " - ") 1 | safeHTML }}</div>
             {{ end }}
         </div>
     </div>
