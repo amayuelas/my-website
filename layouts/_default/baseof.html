@@ -61,19 +61,28 @@
             text-align: center;
             margin-bottom: 40px;
             position: relative;
-            padding-top: 40px;
         }
         h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
         }
         @media (max-width: 768px) {
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .hamburger-container {
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                z-index: 1000;
+            }
             h1 {
                 font-size: 1.8em;
-                margin-top: 10px;
-            }
-            header {
-                padding-top: 60px;
+                margin-top: 0;
+                width: 100%;
+                text-align: center;
             }
         }
         .desktop-nav {
@@ -566,10 +575,12 @@
         });
     </script>
     
-    <header style="position: relative;">
-        <button class="btn btn-outline-secondary d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu" style="position: absolute; left: 10px; top: 20px;">
-            ☰
-        </button>
+    <header>
+        <div class="hamburger-container d-md-none">
+            <button class="btn btn-outline-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu" aria-controls="mobileMenu">
+                ☰
+            </button>
+        </div>
         <h1><a href="{{ "" | relURL }}" style="color: var(--text-color); text-decoration: none;">{{ .Site.Title }}</a></h1>
         <p>{{ .Site.Params.description }}</p>
     </header>
