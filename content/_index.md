@@ -4,15 +4,20 @@ date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
   - date: "06/03/2026"
-    content: "**Talk at USC ISI** - Gave a talk for the NLP Seminar at the [Information Sciences Institute](https://www.isi.edu) from the University of Southern California. Recording available [here](https://tinyurl.com/usc-isi-presentation)."
+    title: "Talk at USC ISI"
+    description: "Gave a talk for the NLP Seminar at the [Information Sciences Institute](https://www.isi.edu) from the University of Southern California. Recording available [here](https://tinyurl.com/usc-isi-presentation)."
   - date: "08/11/2025"
-    content: "**New Preprint** - LeMat-Synth a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature [(arxiv)](https://arxiv.org/abs/2510.26824)."
+    title: "New Preprint"
+    description: "LeMat-Synth a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature [(arxiv)](https://arxiv.org/abs/2510.26824)."
   - date: "01/10/2025"
-    content: "**Research Visit** - Started my Research visit at KAUST with Prof. [Jürgen Schmidhuber](https://people.idsia.ch/~juergen/)."
+    title: "Research Visit"
+    description: "Started my Research visit at KAUST with Prof. [Jürgen Schmidhuber](https://people.idsia.ch/~juergen/)."
   - date: "17/09/2025"
-    content: "**Talk at Barcelona Supercomputing Center** - Visit to the Barcelona Supercomputing Center with an invited talk. More info can be found [here](https://tinyurl.com/bc-talk)."
+    title: "Talk at Barcelona Supercomputing Center"
+    description: "Visit to the Barcelona Supercomputing Center with an invited talk. More info can be found [here](https://tinyurl.com/bc-talk)."
   - date: "16/06/2025"
-    content: "**Internship at Morgan Stanley** - Started my summer internship in the AI team at Morgan Stanley."
+    title: "Internship at Morgan Stanley"
+    description: "Started my summer internship in the AI team at Morgan Stanley."
 ---
 
 ### About
