@@ -1,4 +1,4 @@
-baseURL = "https://amayuelas.github.io/my-website/"
+baseURL = "https://amayuelas.github.io/"
 languageCode = "en-us"
 title = "Alfonso Amayuelas"
 paginate = 10
@@ -17,30 +17,30 @@ ignoreLogs = ['warning-goldmark-raw-html']
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "https://amayuelas.github.io/my-website/"
+    url = "/"
     weight = 1
   [[menu.main]]
     identifier = "experience"
     name = "Experience"
-    url = "https://amayuelas.github.io/my-website/experience/"
+    url = "/experience/"
     weight = 2
   [[menu.main]]
     identifier = "education"
     name = "Education"
-    url = "https://amayuelas.github.io/my-website/education/"
+    url = "/education/"
     weight = 3
   [[menu.main]]
     identifier = "publications"
     name = "Publications"
-    url = "https://amayuelas.github.io/my-website/publications/"
+    url = "/publications/"
     weight = 4
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "https://amayuelas.github.io/my-website/blog/"
+    url = "/blog/"
     weight = 5
   [[menu.main]]
     identifier = "cv"
     name = "CV"
-    url = "https://amayuelas.github.io/my-website/files/CV.pdf"
+    url = "/files/CV.pdf"
     weight = 6
