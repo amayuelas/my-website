@@ -28,7 +28,7 @@ My research interests spans through a wide range of topics in Machine Learning, 
 
 I am always open for a conversation, new ideas and projects. If you are interested in any of the topics that I cover or would like to have a chat, feel free to contact me. 
 
-### News
+### News {#news}
 
 {{< latest_news >}}
 
