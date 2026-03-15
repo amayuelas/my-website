@@ -24,8 +24,8 @@ This website serves as my personal portfolio, showcasing my professional experie
 
 1. Clone this repository:
    ```bash
-   git clone git@github.com:amayuelas/my-website.git
-   cd my-website
+   git clone git@github.com:amayuelas/amayuelas.github.io.git
+   cd amayuelas.github.io
    ```
 
 2. Install dependencies (if any):
