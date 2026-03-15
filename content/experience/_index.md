@@ -8,7 +8,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.ucsb.edu" class="experience-logo">
-        <img src="/my-website/assets/img/logo_ucsb.png" alt="UCSB Logo">
+        <img src="/assets/img/logo_ucsb.png" alt="UCSB Logo">
     </a>
     <div class="experience-details">
         <p><strong>University of California, Santa Barbara</strong></p>
@@ -22,7 +22,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.kaust.edu.sa/en/" class="experience-logo">
-        <img src="/my-website/assets/img/logo_KAUST.png" alt="KAUST Logo">
+        <img src="/assets/img/logo_KAUST.png" alt="KAUST Logo">
     </a>
     <div class="experience-details">
         <p><strong>King Abdullah University of Science and Technology (KAUST)</strong></p>
@@ -36,7 +36,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.epfl.ch" class="experience-logo">
-        <img src="/my-website/assets/img/logo_epfl.png" alt="EPFL Logo">
+        <img src="/assets/img/logo_epfl.png" alt="EPFL Logo">
     </a>
     <div class="experience-details">
         <p><strong>École Polytechnique Fédérale de Lausanne (EPFL)</strong></p>
@@ -49,7 +49,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://ethz.ch" class="experience-logo">
-        <img src="/my-website/assets/img/logo_ethz.png" alt="ETH Zurich Logo">
+        <img src="/assets/img/logo_ethz.png" alt="ETH Zurich Logo">
     </a>
     <div class="experience-details">
         <p><strong>ETH Zurich</strong></p>
@@ -63,7 +63,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.uab.cat" class="experience-logo">
-        <img src="/my-website/assets/img/logo_uab.png" alt="UAB Logo">
+        <img src="/assets/img/logo_uab.png" alt="UAB Logo">
     </a>
     <div class="experience-details">
         <p><strong>Autonomous University of Barcelona</strong></p>
@@ -77,7 +77,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://ucsd.edu" class="experience-logo">
-        <img src="/my-website/assets/img/logo_ucsd.png" alt="UCSD Logo">
+        <img src="/assets/img/logo_ucsd.png" alt="UCSD Logo">
     </a>
     <div class="experience-details">
         <p><strong>University of California, San Diego</strong></p>
@@ -92,7 +92,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.morganstanley.com/about-us/technology/machine-learning-research-team" class="experience-logo">
-        <img src="/my-website/assets/img/logo_morgan_stanley.jpg" alt="Morgan Stanley Logo">
+        <img src="/assets/img/logo_morgan_stanley.jpg" alt="Morgan Stanley Logo">
     </a>
     <div class="experience-details">
         <p><strong>Morgan Stanley</strong></p>
@@ -105,7 +105,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.jpmorgan.com/technology/artificial-intelligence" class="experience-logo">
-        <img src="/my-website/assets/img/jpmorganchase_logo.jpeg" alt="JP Morgan Chase Logo">
+        <img src="/assets/img/jpmorganchase_logo.jpeg" alt="JP Morgan Chase Logo">
     </a>
     <div class="experience-details">
         <p><strong>JP Morgan Chase</strong></p>
@@ -118,7 +118,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://megagon.ai" class="experience-logo">
-        <img src="/my-website/assets/img/logo_megagon.png" alt="Megagon Labs Logo">
+        <img src="/assets/img/logo_megagon.png" alt="Megagon Labs Logo">
     </a>
     <div class="experience-details">
         <p><strong>Megagon Labs</strong></p>
@@ -131,7 +131,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://bigml.com" class="experience-logo">
-        <img src="/my-website/assets/img/logo_bigml.png" alt="BigML Logo">
+        <img src="/assets/img/logo_bigml.png" alt="BigML Logo">
     </a>
     <div class="experience-details">
         <p><strong>BigML</strong></p>
@@ -144,7 +144,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://labs.oracle.com/pls/apex/r/labs/labs/intro" class="experience-logo">
-        <img src="/my-website/assets/img/logo_oracle.png" alt="Oracle Logo">
+        <img src="/assets/img/logo_oracle.png" alt="Oracle Logo">
     </a>
     <div class="experience-details">
         <p><strong>Oracle</strong></p>
@@ -157,7 +157,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.indracompany.com" class="experience-logo">
-        <img src="/my-website/assets/img/logo_indra.jpg" alt="Indra Logo">
+        <img src="/assets/img/logo_indra.jpg" alt="Indra Logo">
     </a>
     <div class="experience-details">
         <p><strong>Indra</strong></p>
@@ -170,7 +170,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.aalto.fi/en" class="experience-logo">
-        <img src="/my-website/assets/img/logo_aalto.png" alt="Aalto University Logo">
+        <img src="/assets/img/logo_aalto.png" alt="Aalto University Logo">
     </a>
     <div class="experience-details">
         <p><strong>Aalto University</strong></p>
@@ -183,7 +183,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://home.cern" class="experience-logo">
-        <img src="/my-website/assets/img/logo_cern.jpg" alt="CERN Logo">
+        <img src="/assets/img/logo_cern.jpg" alt="CERN Logo">
     </a>
     <div class="experience-details">
         <p><strong>CERN</strong></p>
@@ -242,7 +242,7 @@ draft: false
 
 <div class="experience-entry">
     <a href="https://www.tsinghua.edu.cn/en/index.htm" class="experience-logo">
-        <img src="/my-website/assets/img/logo_tsinghua.png" alt="Tsinghua University Logo">
+        <img src="/assets/img/logo_tsinghua.png" alt="Tsinghua University Logo">
     </a>
     <div class="experience-details">
         <p><strong>Tsinghua University</strong></p>

@@ -55,7 +55,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "https://amayuelas.github.io/my-website/"
+            --baseURL "https://www.amayuelas.me/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
