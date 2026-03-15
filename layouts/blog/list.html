@@ -1,7 +1,7 @@
 {{ define "title" }} {{ .Title }} - {{ .Site.Title }} {{ end }}
 
 {{ define "main" }}
-    <div class="blog-posts">
+    <div class="blog-posts blog-page">
         {{ range .Paginator.Pages }}
         <div class="blog-post">
             <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
