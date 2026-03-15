@@ -25,7 +25,7 @@ I am always open for a conversation, new ideas and projects. If you are interest
 
 ### News
 
-{{</* latest_news */>}}
+{{< latest_news >}}
 
 ### Contact
 
