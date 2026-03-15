@@ -2,6 +2,17 @@
 title: "Home"
 date: 2024-03-12T10:00:00-05:00
 draft: false
+news_items:
+  - date: "06/03/2026"
+    content: "**Talk at USC ISI** - Gave a talk for the NLP Seminar at the [Information Sciences Institute](https://www.isi.edu) from the University of Southern California. Recording available [here](https://tinyurl.com/usc-isi-presentation)."
+  - date: "08/11/2025"
+    content: "**New Preprint** - LeMat-Synth a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature [(arxiv)](https://arxiv.org/abs/2510.26824)."
+  - date: "01/10/2025"
+    content: "**Research Visit** - Started my Research visit at KAUST with Prof. [Jürgen Schmidhuber](https://people.idsia.ch/~juergen/)."
+  - date: "17/09/2025"
+    content: "**Talk at Barcelona Supercomputing Center** - Visit to the Barcelona Supercomputing Center with an invited talk. More info can be found [here](https://tinyurl.com/bc-talk)."
+  - date: "16/06/2025"
+    content: "**Internship at Morgan Stanley** - Started my summer internship in the AI team at Morgan Stanley."
 ---
 
 ### About
@@ -14,45 +25,7 @@ I am always open for a conversation, new ideas and projects. If you are interest
 
 ### News
 
-<div class="news-item">
-    <div class="news-date">06/03/2026</div>
-    <div class="news-content">
-        <div class="news-title">Talk at USC ISI</div>
-        <div>Gave a talk for the NLP Seminar at the <a class="news-link" href="https://www.isi.edu">Information Sciences Institute</a> from the University of Southern California. Recording available <a class="news-link" href="https://tinyurl.com/usc-isi-presentation">here</a>.</div>
-    </div>
-</div>
-
-<div class="news-item">
-    <div class="news-date">08/11/2025</div>
-    <div class="news-content">
-        <div class="news-title">New Preprint</div>
-        <div>New Preprint - LeMat-Synth a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature <a class="news-link" href="https://arxiv.org/abs/2510.26824">(arxiv)</a>.</div>
-    </div>
-</div>
-
-<div class="news-item">
-    <div class="news-date">01/10/2025</div>
-    <div class="news-content">
-        <div class="news-title">Research Visit</div>
-        <div>Started my Research visit at KAUST with Prof. <a class="news-link" href="https://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>.</div>
-    </div>
-</div>
-
-<div class="news-item">
-    <div class="news-date">17/09/2025</div>
-    <div class="news-content">
-        <div class="news-title">Talk at Barcelona Supercomputing Center</div>
-        <div>Visit to the Barcelona Supercomputing Center with an invited talk. More info can be found <a class="news-link" href="https://tinyurl.com/bc-talk">here</a>.</div>
-    </div>
-</div>
-
-<div class="news-item">
-    <div class="news-date">16/06/2025</div>
-    <div class="news-content">
-        <div class="news-title">Internship at Morgan Stanley</div>
-        <div>Started my summer internship in the AI team at Morgan Stanley.</div>
-    </div>
-</div>
+{{</* latest_news */>}}
 
 ### Contact
 
