@@ -32,7 +32,7 @@ I am always open for a conversation, new ideas and projects. If you are interest
 
 {{< latest_news >}}
 
-### Contact
+### {#contact} Contact
 
 <i class="fas fa-envelope"></i> [Email](mailto:amayuelas@ucsb.edu)<br>
 <i class="fab fa-twitter"></i> [X (Twitter)](https://twitter.com/alfonamayuelas)<br>
