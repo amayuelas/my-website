@@ -17,30 +17,30 @@ ignoreLogs = ['warning-goldmark-raw-html']
   [[menu.main]]
     identifier = "home"
     name = "Home"
-    url = "/"
+    url = "https://amayuelas.github.io/my-website/"
     weight = 1
   [[menu.main]]
     identifier = "experience"
     name = "Experience"
-    url = "/experience/"
+    url = "https://amayuelas.github.io/my-website/experience/"
     weight = 2
   [[menu.main]]
     identifier = "education"
     name = "Education"
-    url = "/education/"
+    url = "https://amayuelas.github.io/my-website/education/"
     weight = 3
   [[menu.main]]
     identifier = "publications"
     name = "Publications"
-    url = "/publications/"
+    url = "https://amayuelas.github.io/my-website/publications/"
     weight = 4
   [[menu.main]]
     identifier = "blog"
     name = "Blog"
-    url = "/blog/"
+    url = "https://amayuelas.github.io/my-website/blog/"
     weight = 5
   [[menu.main]]
     identifier = "cv"
     name = "CV"
-    url = "/files/CV.pdf"
+    url = "https://amayuelas.github.io/my-website/files/CV.pdf"
     weight = 6
