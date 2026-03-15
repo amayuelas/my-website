@@ -1,0 +1,12 @@
+{{ define "title" }} {{ .Title }} - {{ .Site.Title }} {{ end }}
+
+{{ define "main" }}
+    {{ .Content }}
+    
+    {{ if in .Permalink "blog" }}
+    <div class="back-to-blog">
+        <a href="/blog/">← Back to Blog</a>
+    </div>
+    {{ end }}
+{{ end }}
+

@@ -1,0 +1,19 @@
+{{ define "title" }} {{ .Title }} - {{ .Site.Title }} {{ end }}
+
+{{ define "main" }}
+    <div class="back-to-blogs-top">
+        <a href="/blog/">← Back</a>
+    </div>
+    
+    <div class="blog-post">
+        <h2>{{ .Title }}</h2>
+        <div class="blog-meta">{{ .Date.Format "January 2, 2006" }}</div>
+        
+        {{ .Content }}
+    </div>
+    
+    <!-- Blog single template -->
+    <div class="back-to-blog">
+        <a href="/blog/">← Back to Blog</a>
+    </div>
+{{ end }}
