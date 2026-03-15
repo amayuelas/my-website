@@ -1,0 +1,10 @@
+{{/* News shortcode - simplified way to add news items */}}
+{{ $date := .Get "date" }}
+{{ $content := .Inner | markdownify }}
+
+<div class="news-item">
+    <div class="news-date">{{ $date }}</div>
+    <div class="news-content">
+        <div class="news-title">{{ $content }}</div>
+    </div>
+</div>

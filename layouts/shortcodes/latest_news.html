@@ -1,0 +1,16 @@
+{{/* Latest News shortcode - displays the 5 most recent news items */}}
+{{ $newsItems := .Page.Params.news_items | default slice }}
+{{ $latestNews := $newsItems | first 5 }}
+
+{{ if gt (len $latestNews) 0 }}
+<div class="news-section">
+    {{ range $latestNews }}
+    <div class="news-item">
+        <div class="news-date">{{ .date }}</div>
+        <div class="news-content">
+            <div class="news-title">{{ .content | markdownify }}</div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

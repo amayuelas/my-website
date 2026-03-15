@@ -63,6 +63,40 @@ This site is designed to be deployed as static files. You can deploy the content
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Adding News Items
+
+This theme includes a simplified system for adding news items to your website.
+
+### Adding Individual News Items
+
+Use the `news` shortcode in your Markdown content:
+
+```markdown
+{{</* news date="2023-03-15" */>}}
+Our new paper on LLM reasoning was accepted at ACL 2023!
+{{</* /news */>}}
+```
+
+### Displaying Latest News
+
+To show the 5 most recent news items, add this to your front matter:
+
+```yaml
+news_items:
+  - date: "2023-03-15"
+    content: "Our new paper on LLM reasoning was accepted at ACL 2023!"
+  - date: "2023-02-28"
+    content: "Presented our work at the NLP Conference in Seattle"
+  - date: "2023-01-10"
+    content: "Joined the NLP Lab at UC Santa Barbara"
+```
+
+Then use the shortcode in your template:
+
+```html
+{{</* latest_news */>}}
+```
+
 ## Contact
 
 For questions or issues, please open a GitHub issue or contact me directly.
