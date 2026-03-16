@@ -763,12 +763,12 @@
     <!-- Mobile persistent header script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Show mobile header when scrolling down past 50px
+            // Show mobile header when scrolling down past 50px and keep it visible
+            let headerShown = false;
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) {
+                if (window.scrollY > 50 && !headerShown) {
                     document.body.classList.add('mobile-header-visible');
-                } else {
-                    document.body.classList.remove('mobile-header-visible');
+                    headerShown = true;
                 }
             });
             
