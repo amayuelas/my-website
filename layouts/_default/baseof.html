@@ -112,6 +112,19 @@
             font-weight: bold;
             margin: 0;
             color: var(--text-color);
+            flex-grow: 1;
+            text-align: center;
+        }
+        .mobile-header-toggle {
+            margin-left: 10px;
+        }
+        .mobile-header-toggle .toggle-switch {
+            width: 50px;
+            height: 25px;
+        }
+        .mobile-header-toggle .slider:before {
+            height: 19px;
+            width: 19px;
         }
         
         /* Add padding to main content when mobile header is visible */
@@ -283,6 +296,12 @@
             position: fixed;
             top: 20px;
             right: 20px;
+            z-index: 1000;
+        }
+        @media (max-width: 768px) {
+            .toggle-container {
+                display: none !important;
+            }
         }
         
         .toggle-switch {
@@ -648,6 +667,12 @@
                 ☰
             </button>
             <h2 class="mobile-header-title">{{ .Site.Title }}</h2>
+            <div class="mobile-header-toggle">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="darkModeToggleMobileHeader">
+                    <span class="slider"></span>
+                </label>
+            </div>
         </div>
     </div>
     
@@ -758,6 +783,16 @@
                     }
                 });
             });
+            
+            // Mobile header dark mode toggle
+            const mobileToggle = document.getElementById('darkModeToggleMobileHeader');
+            if (mobileToggle) {
+                const currentTheme = document.documentElement.getAttribute('data-bs-theme');
+                mobileToggle.checked = currentTheme === 'dark';
+                mobileToggle.addEventListener('change', function() {
+                    applyTheme(this.checked ? 'dark' : 'light');
+                });
+            }
         });
     </script>
 </body>
