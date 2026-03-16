@@ -132,9 +132,11 @@
             text-align: center;
         }
         
-        /* Add padding to main content when mobile header is visible */
-        body.mobile-header-visible main {
-            padding-top: 60px;
+        /* Add padding to main content for mobile header */
+        @media (max-width: 768px) {
+            main {
+                padding-top: 60px !important;
+            }
         }
         
         @media (max-width: 768px) {
