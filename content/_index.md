@@ -22,11 +22,13 @@ news_items:
 
 ### About
 
+<div class="home-about">
 Computer Science Ph.D. student in the [NLP Lab](http://nlp.cs.ucsb.edu/) at [UC Santa Barbara (UCSB)](https://www.ucsb.edu), where I am advised by Professor [William Wang](https://sites.cs.ucsb.edu/~william/). I am lucky to be funded by the  [Quantum Foundry Trainee Fellowship](https://quantumfoundry.ucsb.edu/people/fellows/alfonso-amayuelas-fernandez). Previously, I completed a Master's degree in Data Science at [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/), and a double Bachelor's program in Computer Science and Telecommunication Systems Engineering at the [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html). 
 
 My research interests spans through a wide range of topics in Machine Learning, Natural Language Processing, and Artificial Intelligence. During my PhD I have done work in (1) Understanding LLM capabilities, (2) Agent-based systems and Agent Communication and Cooperation, (3) Applications of LLMs
 
 I am always open for a conversation, new ideas and projects. If you are interested in any of the topics that I cover or would like to have a chat, feel free to contact me. 
+</div>
 
 ### News {#news}
 
