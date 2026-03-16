@@ -83,11 +83,15 @@ To show the 5 most recent news items, add this to your front matter:
 
 ```yaml
 news_items:
-  - date: "2023-03-15"
-    content: "Our new paper on LLM reasoning was accepted at ACL 2023!"
-  - date: "2023-02-28"
-    content: "Presented our work at the NLP Conference in Seattle"
-  - date: "2023-01-10"
+  - date: "06/03/2026"
+    title: "Talk at USC ISI"
+    description: "Gave a talk for the NLP Seminar at the [Information Sciences Institute](https://www.isi.edu) from the University of Southern California. Recording available [here](https://tinyurl.com/usc-isi-presentation)."
+  - date: "08/11/2025"
+    title: "New Preprint"
+    description: "LeMat-Synth a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature [(arxiv)](https://arxiv.org/abs/2510.26824)."
+  - date: "01/10/2025"
+    title: "Research Visit"
+    description: "Started my Research visit at KAUST with Prof. [Jürgen Schmidhuber](https://people.idsia.ch/~juergen/)."
     content: "Joined the NLP Lab at UC Santa Barbara"
 ```
 
