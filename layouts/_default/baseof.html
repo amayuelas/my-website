@@ -108,6 +108,12 @@
             padding: 10px 15px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
+            transform: translateY(-100%);
+        }
+        
+        .mobile-header.show {
+            display: block;
+            transform: translateY(0);
         }
         
         .mobile-header.show {
@@ -757,13 +763,20 @@
     <!-- Mobile persistent header script -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Show mobile header on scroll
+            // Show mobile header on scroll (only when scrolling down)
+            let lastScrollPosition = 0;
             window.addEventListener('scroll', function() {
-                if (window.scrollY > 50) {
+                const currentScrollPosition = window.scrollY;
+                
+                if (currentScrollPosition > 50 && currentScrollPosition > lastScrollPosition) {
+                    // Scrolling down - show header
                     document.body.classList.add('mobile-header-visible');
-                } else {
+                } else if (currentScrollPosition < lastScrollPosition) {
+                    // Scrolling up - hide header
                     document.body.classList.remove('mobile-header-visible');
                 }
+                
+                lastScrollPosition = currentScrollPosition;
             });
             
             // Smooth scrolling for anchor links
