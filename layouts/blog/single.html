@@ -5,11 +5,13 @@
         <a href="{{ "blog/" | relURL }}">← Back</a>
     </div>
     
-    <div class="blog-post">
+    <div class="blog-single">
+        <div class="blog-post">
         <h2>{{ .Title }}</h2>
         <div class="blog-meta">{{ .Date.Format "January 2, 2006" }}</div>
         
         {{ .Content }}
+    </div>
     </div>
     
     <!-- Blog single template -->
