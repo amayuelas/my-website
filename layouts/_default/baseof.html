@@ -53,7 +53,7 @@
                 margin-left: 0 !important;
                 margin-right: 0 !important;
             }
-            .blog-post * {
+            .blog-post *:not(blockquote):not(.quote) {
                 padding-left: 0 !important;
                 padding-right: 0 !important;
             }
@@ -415,7 +415,7 @@
             font-style: italic;
             color: #666;
             margin-top: 60px;
-            padding: 0;
+            padding: 20px 24px;
             font-family: "Times New Roman", Times, serif;
             max-width: 600px;
             margin-left: auto;
@@ -423,7 +423,7 @@
             text-align: center;
             font-size: 1.1em;
         }
-        .dark-mode .quote {
+        [data-bs-theme="dark"] .quote {
             color: #aaa;
         }
         .quote-author {
@@ -434,7 +434,7 @@
             color: #666;
             font-family: "Times New Roman", Times, serif;
         }
-        .dark-mode .quote-author {
+        [data-bs-theme="dark"] .quote-author {
             color: #aaa;
         }
         .blog-posts {
@@ -456,8 +456,8 @@
             border-radius: 5px;
             overflow-x: auto;
         }
-        
-        .dark-mode .highlight {
+
+        [data-bs-theme="dark"] .highlight {
             background-color: #2a2a2a;
             color: #f0f0f0;
         }
@@ -476,7 +476,7 @@
         
         blockquote {
             color: #666;
-            padding: 20px 20px 20px 15px;
+            padding: 20px 24px 20px 24px;
             background-color: #f8f8f8;
             border-left: 4px solid #4a90e2;
             font-size: 0.95em;
@@ -485,7 +485,7 @@
             margin: 25px 0;
             border-radius: 0 4px 4px 0;
         }
-        .dark-mode blockquote {
+        [data-bs-theme="dark"] blockquote {
             background-color: #1a1a1a;
             color: #ccc;
             border-left: 4px solid #4a90e2;
@@ -566,6 +566,12 @@
         .blog-post img {
             max-width: 100%;
             height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .blog-post p[align="center"] {
+            text-align: center;
         }
         .google-scholar-link {
             margin-bottom: 30px;
