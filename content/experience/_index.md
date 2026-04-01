@@ -223,7 +223,7 @@ draft: false
   Date: 2022
 
 - **AI with Social Purposes - Entrepeneurship Track**
-  Awarder: [We the humans Think Tank](https://wethehumansthinktank.com/?lang=en)
+  Awarder: [We the humans Think Tank](https://wethehumansthinktank.com)
   Date: Nov 2019
 
 - **Best Student Award - Top 1 (Class 2019)**
@@ -231,11 +231,11 @@ draft: false
   Date: Nov 2019
 
 - **Most innovative & Most voted App in the Galileo App Competion 2019**
-  Awarder: European Space Agency ([ESA](https://www.esa.int/))
+  Awarder: European Space Agency ([ESA](https://www.esa.int/ESA_Multimedia/Videos/2019/06/Galileo_smartphone_app_competition_2019))
   Date: Apr 2019
 
 - **1st Place EU-XCEL Startup Contest**
-  Awarder: [EU-XCEL](http://euxcel.eu/)
+  Awarder: EU-XCEL
   Date: Oct 2016
 
 ## Others
