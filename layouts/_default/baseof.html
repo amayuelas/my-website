@@ -25,11 +25,13 @@
         :root {
             --bg-color: #ffffff;
             --text-color: #333;
+            --text-color-rgb: 51, 51, 51;
         }
         
         [data-bs-theme="dark"] {
             --bg-color: #2a2a2a;
             --text-color: #f0f0f0;
+            --text-color-rgb: 240, 240, 240;
         }
         
         body {
@@ -504,12 +506,20 @@
             }
         }
         .blog-post h2 {
-            margin-bottom: 5px;
+            margin-bottom: 1.5rem;
             font-size: 1.5em;
         }
         .blog-post h2 a {
             color: var(--text-color);
             text-decoration: none;
+        }
+        .blog-post h3 {
+            margin-bottom: 1rem;
+            font-size: 1.25em;
+        }
+        .blog-post h4 {
+            margin-bottom: 0.75rem;
+            font-size: 1.1em;
         }
         .blog-post h2 a:hover {
             text-decoration: underline;
@@ -569,6 +579,14 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+        }
+        
+        /* Add more space before horizontal rules */
+        hr {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            border: 0;
+            border-top: 1px solid rgba(var(--text-color-rgb), 0.2);
         }
         .blog-post p[align="center"] {
             text-align: center;
