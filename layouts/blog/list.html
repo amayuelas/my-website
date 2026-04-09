@@ -8,11 +8,11 @@
             <div class="blog-meta">{{ .Date.Format "January 2, 2006" }}</div>
             <div class="blog-summary">
                 {{ if ge (len .Summary) 160 }}
-                {{ $truncated := .Summary | plainify | truncate 163 }}
-                {{ $truncated }}
+                {{ $truncated := .Summary | truncate 163 }}
+                {{ $truncated | safeHTML }}
                 <a href="{{ .RelPermalink }}" class="read-more"> (More)</a>
                 {{ else }}
-                {{ .Summary | plainify }}
+                {{ .Summary | safeHTML }}
                 {{ end }}
             </div>
         </div>
