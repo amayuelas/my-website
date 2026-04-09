@@ -6,13 +6,19 @@ summary: Reflections on a research visit to KAUST in Saudi Arabia, working with 
 
 ![](image1.JPG)
 
+## About the Visit
+
 In the Fall quarter of 2025 (September through December), I got the chance to visit KAUST, the King Abdullah University of Science and Technology, located near the city of Jeddah in the Kingdom of Saudi Arabia. The purpose of my visit was to work with [Jurgen Schmidhuber's](https://www.kaust.edu.sa/en/study/faculty/juergen-schmidhuber) recently opened lab at this university, which had caught my attention through its work on multi-agent systems (e.g. [GPTSwarm](https://openreview.net/forum?id=uTC9AFXIhg), [MindStorms](https://arxiv.org/abs/2305.17066)) and on self-improving AI (e.g. [Huxley-Gödel Machine](https://arxiv.org/abs/2510.21614)). After discussing possible synergies with the researchers in the lab and coordinating our schedules, I was set and ready to depart from Santa Barbara, pack my bags, and start my journey to the Kingdom of Saudi Arabia.
 
 ![](image2.png)
 
+## KAUST as a Research Environment
+
 The [King Abdullah University of Science and Technology](https://www.kaust.edu.sa/en/) is a relatively new institution, established in 2009, with a rising reputation that has already made a name for itself in the Arab world and beyond. According to their website, the university already hosts 8,000 people representing 100 nationalities. You can tell it's a very international place, and English is spoken widely across campus. The university buildings are incredible, located one hour away from Jeddah right by the Red Sea. The campus is made of impressive buildings that overlook the sea. It gives off Dune vibes, with huge structures built in the desert. Certainly a good place to focus on work or get away from the cold winters elsewhere.
 
 ![](image3.jpeg)
+
+## My Learnings and Work at KAUST
 
 At KAUST, I got the chance to meet the people working on the papers mentioned previously. Personally, I became interested in the line of work from Prof. Schmidhuber on curiosity and optimal planning ([link to blog](https://people.idsia.ch/~juergen/artificial-curiosity-since-1990.html#sec3)). If we are creating large societies of AI agents, the agents need to explore their own questions and come up with solutions to them. This is a problem that I find particularly intriguing.
 
@@ -25,6 +31,8 @@ Given this new knowledge, I later came across the 2011 paper [Bayes-optimal plan
 This leads us to think about what we can use these ideas for in current AI problems. We decided to apply this framework to LLM-based test generation. When an LLM tries to test a codebase, it faces the same problem as a curious agent exploring an unknown environment. Greedy approaches plateau because they only target what looks useful right now, missing the setup steps that unlock deeper code paths later. In our paper **[Planning to Explore](https://arxiv.org/abs/2604.05159)**, we treat the program's branch structure as the unknown environment and the coverage map as the agent's evolving belief about what it has discovered so far. At each step, the LLM scores candidate test plans using a curiosity Q-value that balances immediate branch discovery with future reachability, providing better results than greedy solutions.
 
 ![](image4.png)
+
+## Apart from Work
 
 Overall, this summarizes my research work in Saudi Arabia, where I got to discover a country I was not familiar with and an incredible group of researchers. The experience couldn't have been better. I also got the time to explore other places, from the mountains to the bottom of the Red Sea. I even had the chance to visit the temples of the ancient Egyptian civilization in Luxor. *Isn't this about curiosity, after all?*
 
