@@ -10,7 +10,7 @@ summary: Reflections on a research visit to KAUST in Saudi Arabia, working with 
 
 In the Fall quarter of 2025 (September through December), I got the chance to visit KAUST, the King Abdullah University of Science and Technology, located near the city of Jeddah in the Kingdom of Saudi Arabia. The purpose of my visit was to work with [Jurgen Schmidhuber's](https://www.kaust.edu.sa/en/study/faculty/juergen-schmidhuber) recently opened lab at this university, which had caught my attention through its work on multi-agent systems (e.g. [GPTSwarm](https://openreview.net/forum?id=uTC9AFXIhg), [MindStorms](https://arxiv.org/abs/2305.17066)) and on self-improving AI (e.g. [Huxley-Gödel Machine](https://arxiv.org/abs/2510.21614)). After discussing possible synergies with the researchers in the lab and coordinating our schedules, I was set and ready to depart from Santa Barbara, pack my bags, and start my journey to the Kingdom of Saudi Arabia.
 
-![](image2.png)
+<img src="image2.png" width="60%" style="display: block; margin: 0 auto;">
 
 ## KAUST as a Research Environment
 
