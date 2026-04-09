@@ -1,7 +1,7 @@
 ---
 title: "About a Research Visit to KAUST"
 date: 2026-04-08
-summary: Reflections on a research visit to KAUST in Saudi Arabia, working with Jurgen Schmidhubers lab on curiosity-driven exploration and its application to LLM-based test generation.
+summary: "Reflections on a research visit to KAUST in Saudi Arabia, working with Jurgen Schmidhuber&#39;s lab on curiosity-driven exploration and its application to LLM-based test generation."
 ---
 
 ![](image1.JPG)
