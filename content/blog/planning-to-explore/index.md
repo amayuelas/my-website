@@ -98,12 +98,12 @@ CovQValue outperforms greedy selection by 51-77% on TestGenEval Lite and 40-74% 
 
 <div style="display: flex; gap: 2%; align-items: flex-start;">
   <figure style="width: 49%; margin: 0;">
-    <img src="fig1_exploration_curves_reb.png" style="width: 100%;">
     <figcaption style="text-align: center; font-size: 0.9em; font-style: italic;">RepoExploreBench</figcaption>
+    <img src="fig1_exploration_curves_reb.png" style="width: 100%;">
   </figure>
   <figure style="width: 49%; margin: 0;">
-    <img src="fig1_exploration_curves_tge.png" style="width: 100%;">
     <figcaption style="text-align: center; font-size: 0.9em; font-style: italic;">TestGenEval Lite</figcaption>
+    <img src="fig1_exploration_curves_tge.png" style="width: 100%;">
   </figure>
 </div>
 
