@@ -97,8 +97,14 @@ We ran our experiments with three LLMs from different providers (Gemini 3 Flash,
 CovQValue outperforms greedy selection by 51-77% on TestGenEval Lite and 40-74% on RepoExploreBench, winning on 77-84% of individual targets. The gains are largest on some of the most complex repositories, like sympy (+55%), matplotlib (+52%), astropy (+55%), which is what our theory predicted. The more corridor structure a codebase has, the more planning-aware exploration helps.
 
 <div style="display: flex; gap: 2%; align-items: flex-start;">
-  <img src="fig1_exploration_curves_reb.png" style="width: 49%;">
-  <img src="fig1_exploration_curves_tge.png" style="width: 49%;">
+  <figure style="width: 49%; margin: 0;">
+    <img src="fig1_exploration_curves_reb.png" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em; font-style: italic;">RepoExploreBench</figcaption>
+  </figure>
+  <figure style="width: 49%; margin: 0;">
+    <img src="fig1_exploration_curves_tge.png" style="width: 100%;">
+    <figcaption style="text-align: center; font-size: 0.9em; font-style: italic;">TestGenEval Lite</figcaption>
+  </figure>
 </div>
 
 The flask.app case study is particularly striking. All three baselines remain stuck at 2 branches for all 24 execution steps. The Flask application factory requires a specific initialization sequence that greedy strategies never discover. CovQValue breaks through immediately and reaches 182 branches.
