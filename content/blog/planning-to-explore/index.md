@@ -55,7 +55,8 @@ I found and learned about these works during my visit to KAUST last year, where 
 
 Thus, we can see the direct connection between the framework defined by Sun in 2011, and the problem we are facing of automatic test generation. Here is the mapping we make in the paper:
 
-<table style="margin: 0 auto;">
+<div style="display: flex; justify-content: center;">
+<table style="width: auto; margin: 0 auto;">
   <thead>
     <tr><th>Bayesian exploration</th><th>Test generation</th></tr>
   </thead>
@@ -67,6 +68,7 @@ Thus, we can see the direct connection between the framework defined by Sun in 2
     <tr><td>Information gain</td><td>Expected new branches discovered</td></tr>
   </tbody>
 </table>
+</div>
 
 The program's branch structure is initially unknown. Each test we run reveals part of it. The coverage map (aka the set of branches discovered so far) serves as a proxy for the agent's posterior belief about what the program contains. After each execution, we update the coverage map and feed it back to the LLM.
 
