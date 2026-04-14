@@ -4,7 +4,6 @@ date: 2026-04-14
 summary: How curiosity-driven planning, grounded in a 35-year thread of information-theoretic exploration, helps LLMs break through the coverage plateau in automated test generation.
 ---
 
-*April 2026*
 
 ![](graph_plot.png)
 
@@ -56,13 +55,18 @@ I found and learned about these works during my visit to KAUST last year, where 
 
 Thus, we can see the direct connection between the framework defined by Sun in 2011, and the problem we are facing of automatic test generation. Here is the mapping we make in the paper:
 
-| Bayesian exploration | Test generation |
-|---|---|
-| Unknown environment Θ | Program's branch reachability structure |
-| Agent's posterior p(Θ\|h) | Coverage map Ct |
-| Action | Test plan (sequence of scripts) |
-| Observation | Branches hit by executing the plan |
-| Information gain | Expected new branches discovered |
+<table style="margin: 0 auto;">
+  <thead>
+    <tr><th>Bayesian exploration</th><th>Test generation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Unknown environment Θ</td><td>Program's branch reachability structure</td></tr>
+    <tr><td>Agent's posterior p(Θ|h)</td><td>Coverage map Ct</td></tr>
+    <tr><td>Action</td><td>Test plan (sequence of scripts)</td></tr>
+    <tr><td>Observation</td><td>Branches hit by executing the plan</td></tr>
+    <tr><td>Information gain</td><td>Expected new branches discovered</td></tr>
+  </tbody>
+</table>
 
 The program's branch structure is initially unknown. Each test we run reveals part of it. The coverage map (aka the set of branches discovered so far) serves as a proxy for the agent's posterior belief about what the program contains. After each execution, we update the coverage map and feed it back to the LLM.
 
@@ -93,7 +97,10 @@ We ran our experiments with three LLMs from different providers (Gemini 3 Flash,
 
 CovQValue outperforms greedy selection by 51-77% on TestGenEval Lite and 40-74% on RepoExploreBench, winning on 77-84% of individual targets. The gains are largest on some of the most complex repositories, like sympy (+55%), matplotlib (+52%), astropy (+55%), which is what our theory predicted. The more corridor structure a codebase has, the more planning-aware exploration helps.
 
-<img src="fig1_exploration_curves_reb.png" width="49%"> <img src="fig1_exploration_curves_tge.png" width="49%">
+<div style="display: flex; gap: 2%; align-items: flex-start;">
+  <img src="fig1_exploration_curves_reb.png" style="width: 49%;">
+  <img src="fig1_exploration_curves_tge.png" style="width: 49%;">
+</div>
 
 The flask.app case study is particularly striking. All three baselines remain stuck at 2 branches for all 24 execution steps. The Flask application factory requires a specific initialization sequence that greedy strategies never discover. CovQValue breaks through immediately and reaches 182 branches.
 
