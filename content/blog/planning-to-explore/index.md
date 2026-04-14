@@ -55,19 +55,16 @@ I found and learned about these works during my visit to KAUST last year, where 
 
 Thus, we can see the direct connection between the framework defined by Sun in 2011, and the problem we are facing of automatic test generation. Here is the mapping we make in the paper:
 
-<div style="display: flex; justify-content: center;">
-<table style="width: auto; margin: 0 auto;">
-  <thead>
-    <tr><th>Bayesian exploration</th><th>Test generation</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Unknown environment Θ</td><td>Program's branch reachability structure</td></tr>
-    <tr><td>Agent's posterior p(Θ|h)</td><td>Coverage map Ct</td></tr>
-    <tr><td>Action</td><td>Test plan (sequence of scripts)</td></tr>
-    <tr><td>Observation</td><td>Branches hit by executing the plan</td></tr>
-    <tr><td>Information gain</td><td>Expected new branches discovered</td></tr>
-  </tbody>
-</table>
+<div style="max-width: fit-content; margin: 0 auto;">
+
+| Bayesian exploration | Test generation |
+|---|---|
+| Unknown environment Θ | Program's branch reachability structure |
+| Agent's posterior p(Θ\|h) | Coverage map Ct |
+| Action | Test plan (sequence of scripts) |
+| Observation | Branches hit by executing the plan |
+| Information gain | Expected new branches discovered |
+
 </div>
 
 The program's branch structure is initially unknown. Each test we run reveals part of it. The coverage map (aka the set of branches discovered so far) serves as a proxy for the agent's posterior belief about what the program contains. After each execution, we update the coverage map and feed it back to the LLM.
