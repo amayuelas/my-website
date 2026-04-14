@@ -121,7 +121,9 @@ We believe that planning-aware exploration, grounded in information-theoretic pr
 
 ---
 
-*The paper is available at [arxiv.org/abs/2604.05159](https://arxiv.org/abs/2604.05159). Code and benchmark are at [github.com/amayuelas/qcurious-tester](https://github.com/amayuelas/qcurious-tester).*
+*The paper is available at [arxiv.org/abs/2604.05159](https://arxiv.org/abs/2604.05159). 
+
+Code and benchmark can be found here [github.com/amayuelas/qcurious-tester](https://github.com/amayuelas/qcurious-tester).*
 
 ## Citation
 
