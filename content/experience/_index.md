@@ -25,7 +25,7 @@ draft: false
         <img src="/assets/img/logo_stanford.png" alt="Stanford Logo">
     </a>
     <div class="experience-details">
-        <p><strong>Stanfor University</strong></p>
+        <p><strong>Stanford University</strong></p>
         <p><em>PhD Research Visit</em></p>
         <p>Advisor: Alex "Sandy" Pentland</p>
         <p><em>April 2026 - ongoing</em></p>
