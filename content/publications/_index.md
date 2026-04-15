@@ -14,10 +14,6 @@ draft: false
   Wenyue Hua, Ollie Liu, Lingyao Li, **Alfonso Amayuelas**, Julie Chen, Lucas Jiang, Mingyu Jin, Lizhou Fan, Fei Sun, William Wang, Xintong Wang, Yongfeng Zhang
   [(Paper)](https://arxiv.org/abs/2411.05990)
 
-- **Grounding LLM Reasoning with Knowledge Graphs**
-  **Alfonso Amayuelas**, Joy Sain, Simerjot Kaur, Charese Smiley
-  [(Paper)](https://arxiv.org/abs/2502.13247)
-
 - **Self-Resource Allocation in Multi-Agent LLM Systems**
   **Alfonso Amayuelas**, Jingbo Yang, Saaket Agashe, Ashwin Nagarajan, Antonis Antoniades, Xin Eric Wang, William Wang
   [(Paper)](https://arxiv.org/abs/2504.02051)
@@ -26,13 +22,21 @@ draft: false
   Nikolas Belle, Dakota Barnes, **Alfonso Amayuelas**, Ivan Bercovich, Xin Eric Wang, William Wang
   [(Paper)](https://arxiv.org/abs/2506.04651)
 
-- **Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation**
-  Israfel Salazar, Manuel Fernández Burda, Shayekh Bin Islam, Arshia Soltani Moakhar, Shivalika Singh, Fabian Farestam, Angelika Romanou, Danylo Boiko, Dipika Khullar, Mike Zhang, Dominik Krzemiński, Jekaterina Novikova, Luísa Shimabucoro, Joseph Marvin Imperial, Rishabh Maheshwary, Sharad Duwal, **Alfonso Amayuelas**, Swati Rajwal, Jebish Purbey, Ahmed Ruby, Nicholas Popovič, Marek Suppa, Azmine Toushik Wasi, Ram Mohan Rao Kadiyala, Olga Tsymboi, Maksim Kostritsya, Bardia Soltani Moakhar, Gabriel da Costa Merlin, Otávio Ferracioli Coletti, Maral Jabbari Shiviari, MohammadAmin farahani fard, Silvia Fernandez, María Grandury, Dmitry Abulkhanov, Drishti Sharma, Andre Guarnier De Mitri, Leticia Bossatto Marchezi, Setayesh Heydari, Johan Obando-Ceron, Nazar Kohut, Beyza Ermis, Desmond Elliott, Enzo Ferrante, Sara Hooker, Marzieh Fadaee
-  [(Paper)](https://arxiv.org/abs/2504.07072)
-
 - **LeMat-Synth: a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature**
   Magdalena Lederbauer, Siddharth Betala, Xiyao Li, Ayush Jain, Amine Sehaba, Georgia Channing, Grégoire Germain, Anamaria Leonescu, Faris Flaifil, **Alfonso Amayuelas**, Alexandre Nozadze, Stefan P. Schmid, Mohd Zaki, Sudheesh Kumar Ethirajan, Elton Pan, Mathilde Franckel, Alexandre Duval, N. M. Anoop Krishnan, Samuel P. Gleason
   [(Paper)](https://arxiv.org/abs/2510.26824)
+
+- **Planning to Explore: Curiosity-Driven Planning for LLM Test Generation**
+  **Alfonso Amayuelas**, Firas Laakom, Piotr Piękos, Wenyi Wang, Yifan Xu, Yuhui Wang, Jürgen Schmidhuber, William Wang
+  [(Paper)](https://arxiv.org/abs/2604.05159)
+
+
+## 2026
+
+- **Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation**
+  Israfel Salazar, Manuel Fernández Burda, Shayekh Bin Islam, Arshia Soltani Moakhar, Shivalika Singh, Fabian Farestam, Angelika Romanou, Danylo Boiko, Dipika Khullar, Mike Zhang, Dominik Krzemiński, Jekaterina Novikova, Luísa Shimabucoro, Joseph Marvin Imperial, Rishabh Maheshwary, Sharad Duwal, **Alfonso Amayuelas**, Swati Rajwal, Jebish Purbey, Ahmed Ruby, Nicholas Popovič, Marek Suppa, Azmine Toushik Wasi, Ram Mohan Rao Kadiyala, Olga Tsymboi, Maksim Kostritsya, Bardia Soltani Moakhar, Gabriel da Costa Merlin, Otávio Ferracioli Coletti, Maral Jabbari Shiviari, MohammadAmin farahani fard, Silvia Fernandez, María Grandury, Dmitry Abulkhanov, Drishti Sharma, Andre Guarnier De Mitri, Leticia Bossatto Marchezi, Setayesh Heydari, Johan Obando-Ceron, Nazar Kohut, Beyza Ermis, Desmond Elliott, Enzo Ferrante, Sara Hooker, Marzieh Fadaee
+  *International Conference on Learning Representations 2026 (ICLR 2026)*
+  [(Paper)](https://arxiv.org/abs/2504.07072)
 
 ## 2025
 
@@ -55,6 +59,11 @@ draft: false
   Luke Yoffe, **Alfonso Amayuelas**, William Yang Wang
   *Findings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP 2025)*
   [(Paper)](https://arxiv.org/abs/2407.06426)
+
+- **Grounding LLM Reasoning with Knowledge Graphs**
+  **Alfonso Amayuelas**, Joy Sain, Simerjot Kaur, Charese Smiley
+  *Workshop on Foundations of Reasoning in Language Models at the Advances in Neural Information Processing Systems (NeurIPS 2025)
+  [(Paper)](https://arxiv.org/abs/2502.13247)
 
 ## 2024
 
