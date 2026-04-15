@@ -21,6 +21,20 @@ draft: false
 <hr class="entry-separator">
 
 <div class="experience-entry">
+    <a href="https://www.stanford.edu" class="experience-logo">
+        <img src="/assets/img/logo_stanford.png" alt="Stanford Logo">
+    </a>
+    <div class="experience-details">
+        <p><strong>Stanfor University</strong></p>
+        <p><em>PhD Research Visit</em></p>
+        <p>Advisor: Alex "Sandy" Pentland</p>
+        <p><em>April 2026 - ongoing</em></p>
+    </div>
+</div>
+
+<hr class="entry-separator">
+
+<div class="experience-entry">
     <a href="https://www.kaust.edu.sa/en/" class="experience-logo">
         <img src="/assets/img/logo_KAUST.png" alt="KAUST Logo">
     </a>

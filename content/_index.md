@@ -4,6 +4,9 @@ date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
   - date: "14/04/2026"
+    title: "Joined Stanford HAI"
+    description: "Joined the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu) as a researcher."
+  - date: "06/04/2026"
     title: "New Preprint"
     description: "Check out the latest paper --> *Planning to Explore: Curiosity-Driven Planning for LLM Test Generation* [(arxiv)](https://arxiv.org/abs/2604.05159)."
   - date: "06/03/2026"
@@ -27,7 +30,7 @@ news_items:
 
 <div class="home-about">
 
-Computer Science Ph.D. student in the [NLP Lab](http://nlp.cs.ucsb.edu/) at [UC Santa Barbara (UCSB)](https://www.ucsb.edu), where I am advised by Professor [William Wang](https://sites.cs.ucsb.edu/~william/). I am lucky to be funded by the  [Quantum Foundry Trainee Fellowship](https://quantumfoundry.ucsb.edu/people/fellows/alfonso-amayuelas-fernandez). Previously, I completed a Master's degree in Data Science at [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/), and a double Bachelor's program in Computer Science and Telecommunication Systems Engineering at the [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html).
+Computer Science Ph.D. student in the [NLP Lab](http://nlp.cs.ucsb.edu/) at [UC Santa Barbara (UCSB)](https://www.ucsb.edu), where I am advised by Professor [William Wang](https://sites.cs.ucsb.edu/~william/). I am lucky to be funded by the  [Quantum Foundry Trainee Fellowship](https://quantumfoundry.ucsb.edu/people/fellows/alfonso-amayuelas-fernandez). I am currenlty a visiting researcher at the [Institute for Decentralized AI](https://decentralized-ai.org) and the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu) with Prof. [Alex Sandy Pentland](https://digitaleconomy.stanford.edu/person/sandy-pentland/). Previously, I completed a Master's degree in Data Science at [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/), and a double Bachelor's program in Computer Science and Telecommunication Systems Engineering at the [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html).
 
 My research interests spans through a wide range of topics in Machine Learning, Natural Language Processing, and Artificial Intelligence. During my PhD I have done work in (1) Understanding LLM capabilities, (2) Agent-based systems and Agent Communication and Cooperation, (3) Applications of LLMs
 
