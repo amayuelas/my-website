@@ -5,7 +5,7 @@ draft: false
 news_items:
   - date: "14/04/2026"
     title: "New Preprint"
-    description: "Check out the lates paper *Planning to Explore: Curiosity-Driven Planning for LLM Test Generation* [(arxiv)](https://arxiv.org/abs/2604.05159)."
+    description: "Check out the latest paper --> *Planning to Explore: Curiosity-Driven Planning for LLM Test Generation* [(arxiv)](https://arxiv.org/abs/2604.05159)."
   - date: "06/03/2026"
     title: "Talk at USC ISI"
     description: "Gave a talk for the NLP Seminar at the [Information Sciences Institute](https://www.isi.edu) from the University of Southern California. Recording available [here](https://tinyurl.com/usc-isi-presentation)."
