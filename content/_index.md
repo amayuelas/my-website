@@ -5,7 +5,7 @@ draft: false
 news_items:
   - date: "14/04/2026"
     title: "Joined Stanford HAI"
-    description: "Joined the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu) as a researcher."
+    description: "Joined the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu) in collaboration with the [Institute for Decentralized AI](https://decentralized-ai.org)"
   - date: "06/04/2026"
     title: "New Preprint"
     description: "Check out the latest paper --> *Planning to Explore: Curiosity-Driven Planning for LLM Test Generation* [(arxiv)](https://arxiv.org/abs/2604.05159)."
