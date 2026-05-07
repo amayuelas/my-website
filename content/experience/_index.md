@@ -272,7 +272,7 @@ draft: false
 <div class="experience-entry">
     <div class="experience-details">
         <p><strong><a href="https://fatima.institute">Fatima Institute for Global AI Research</a></strong></p>
-        <p>Remota, Globally</p>
+        <p>Remote, Globally</p>
         <p><em>May 2026 - Dec 2026</em></p>
     </div>
 </div>
