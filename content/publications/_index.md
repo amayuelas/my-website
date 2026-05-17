@@ -30,6 +30,10 @@ draft: false
   **Alfonso Amayuelas**, Firas Laakom, Piotr Piękos, Wenyi Wang, Yifan Xu, Yuhui Wang, Jürgen Schmidhuber, William Wang  
   [(Paper)](https://arxiv.org/abs/2604.05159)
 
+- **Learning POMDP World Models from Observations with Language-Model Priors**  
+  Valentin Six, Frederik Panse, Mathis Fajeau, Lancelot Da Costa, Mridul Sharma, **Alfonso Amayuelas**, Tim Z. Xiao, David Hyland, Philipp Hennig, Bernhard Schölkopf  
+  [(Paper)](https://arxiv.org/abs/2605.13740)
+
 
 ## 2026
 
