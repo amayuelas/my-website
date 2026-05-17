@@ -4,8 +4,8 @@ date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
   - date: "17/05/2026"
-    title: "New Preprint"
-    description: "Check out the latest paper --> *Learning POMDP World Models from Observations with Language-Model Priors* [(arxiv)](https://arxiv.org/abs/2605.13740)."
+    title: "New Paper Released"
+    description: "Our newest preprint, *Learning POMDP World Models from Observations with Language-Model Priors*, is now available on arXiv [(arxiv)](https://arxiv.org/abs/2605.13740)."
   - date: "14/04/2026"
     title: "Joined Stanford HAI"
     description: "Joined the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu) in collaboration with the [Institute for Decentralized AI](https://decentralized-ai.org)"
