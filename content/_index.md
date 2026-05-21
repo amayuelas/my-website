@@ -51,7 +51,6 @@ I am always open for a conversation, new ideas and projects. If you are interest
 
 <i class="fas fa-envelope"></i> [Email](mailto:amayuelas@ucsb.edu)<br>
 <i class="fab fa-twitter"></i> [X (Twitter)](https://twitter.com/alfonamayuelas)<br>
-<i class="fas fa-cloud"></i> [Bluesky](https://bsky.app/profile/amayuelas.bsky.social)<br>
 <i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/alfonsoamayuelas/)<br>
 <i class="fab fa-github"></i> [GitHub](https://github.com/amayuelas)<br>
 <i class="fas fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=QGQ2G28AAAAJ)<br>
