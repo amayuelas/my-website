@@ -3,6 +3,9 @@ title: "Home"
 date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
+  - date: "23/06/2026"
+    title: "New Preprint"
+    description: "New preprint released: *Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty* is now available on arXiv [(arxiv)](https://arxiv.org/abs/2606.25198)."
   - date: "17/05/2026"
     title: "New Preprint"
     description: "New preprint released: *Learning POMDP World Models from Observations with Language-Model Priors* is now available on arXiv [(arxiv)](https://arxiv.org/abs/2605.13740)."
