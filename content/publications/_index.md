@@ -10,10 +10,6 @@ draft: false
 
 ## Preprints
 
-- **Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty**  
-  Antonis Antoniades, Deepak Nathani, Ritam Saha, **Alfonso Amayuelas**, Ivan Bercovich, Zhaotian Weng, Vignesh Baskaran, Kunal Bhatia, William Yang Wang  
-  [(Paper)](https://arxiv.org/abs/2606.25198)
-
 - **Game-theoretic LLM: Agent Workflow for Negotiation Games**  
   Wenyue Hua, Ollie Liu, Lingyao Li, **Alfonso Amayuelas**, Julie Chen, Lucas Jiang, Mingyu Jin, Lizhou Fan, Fei Sun, William Wang, Xintong Wang, Yongfeng Zhang  
   [(Paper)](https://arxiv.org/abs/2411.05990)
@@ -37,6 +33,10 @@ draft: false
 - **Learning POMDP World Models from Observations with Language-Model Priors**  
   Valentin Six, Frederik Panse, Mathis Fajeau, Lancelot Da Costa, Mridul Sharma, **Alfonso Amayuelas**, Tim Z. Xiao, David Hyland, Philipp Hennig, Bernhard Schölkopf  
   [(Paper)](https://arxiv.org/abs/2605.13740)
+
+- **Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty**  
+  Antonis Antoniades, Deepak Nathani, Ritam Saha, **Alfonso Amayuelas**, Ivan Bercovich, Zhaotian Weng, Vignesh Baskaran, Kunal Bhatia, William Yang Wang  
+  [(Paper)](https://arxiv.org/abs/2606.25198)
 
 
 ## 2026
