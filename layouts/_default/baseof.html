@@ -3,6 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{/* OpenGraph / Facebook */}}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:title" content="{{ .Title | default .Site.Title }}">
+    <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    {{/* Twitter Card */}}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ .Title | default .Site.Title }}">
+    <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+    <meta name="twitter:site" content="@amayuelas">
+    {{/* Schema.org structured data */}}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ .Site.Title }}",
+      "url": "{{ .Site.BaseURL }}",
+      "description": "{{ .Site.Params.description }}",
+      "hasOccupation": {
+        "@type": "Role",
+        "roleName": "PhD Student"
+      },
+      "affiliation": {
+        "@type": "Organization",
+        "name": "UC Santa Barbara"
+      }
+    }
+    </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WJ6264TPX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];

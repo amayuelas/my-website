@@ -1,14 +1,43 @@
-{{/* Latest News shortcode - displays the 5 most recent news items */}}
+{{/* Latest News shortcode - displays the 5 most recent news items, sorted by date */}}
 {{ $newsItems := .Page.Params.news_items | default slice }}
-{{ $latestNews := $newsItems | first 5 }}
+{{/* Build list with sortable date strings (YYYYMMDD) */}}
+{{ $itemsWithSortableDate := slice }}
+{{ range $item := $newsItems }}
+  {{ $date := $item.date | default "" }}
+  {{/* Handle DD/MM/YYYY format (e.g., 23/06/2026) - convert to sortable YYYYMMDD */}}
+  {{ $parts := split $date "/" }}
+  {{ $sortableDate := $date }}
+  {{ if eq (len $parts) 3 }}
+    {{/* DD/MM/YYYY -> YYYYMMDD (without separators) */}}
+    {{ $sortableDate = printf "%s%s%s" (index $parts 2) (index $parts 1) (index $parts 0) }}
+  {{ else }}
+    {{/* Replace separators for ISO dates */}}
+    {{ $sortableDate = replace $date "-" "" }}
+  {{ end }}
+  {{ $itemsWithSortableDate = $itemsWithSortableDate | append (dict "sortableDate" $sortableDate "dateStr" $date "title" $item.title "description" $item.description "link" ($item.link | default "")) }}
+{{ end }}
+{{/* Sort by sortable date string descending - Hugo sort syntax: sort COLLECTION PROPERTY DIRECTION */}}
+{{ $sorted := sort $itemsWithSortableDate "sortableDate" "desc" }}
+{{ $latestNews := $sorted | first 5 }}
 
 {{ if gt (len $latestNews) 0 }}
 <div class="news-section">
     {{ range $latestNews }}
+    {{/* Format date for display - convert to YYYY-MM-DD for parsing */}}
+    {{ $parts := split .dateStr "/" }}
+    {{ $isoDate := .dateStr }}
+    {{ if eq (len $parts) 3 }}
+      {{/* DD/MM/YYYY -> YYYY-MM-DD */}}
+      {{ $isoDate = printf "%s-%s-%s" (index $parts 2) (index $parts 1) (index $parts 0) }}
+    {{ end }}
     <div class="news-item">
-        <div class="news-date">{{ .date }}</div>
+        <div class="news-date">{{ $isoDate | time.Format "Jan 2, 2006" }}</div>
         <div class="news-content">
+            {{ if .link }}
+            <div class="news-title"><a href="{{ .link }}" class="news-link">{{ .title | markdownify }}</a></div>
+            {{ else }}
             <div class="news-title">{{ .title | markdownify }}</div>
+            {{ end }}
             <div>{{ .description | markdownify }}</div>
         </div>
     </div>
