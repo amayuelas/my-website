@@ -3,31 +3,31 @@ title: "Home"
 date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
-  - date: "23/06/2026"
+  - date: "2026-06-23"
     title: "New Preprint"
     description: "New preprint released: *Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty* is now available on arXiv [(arxiv)](https://arxiv.org/abs/2606.25198)."
-  - date: "17/05/2026"
+  - date: "2026-05-17"
     title: "New Preprint"
     description: "New preprint released: *Learning POMDP World Models from Observations with Language-Model Priors* is now available on arXiv [(arxiv)](https://arxiv.org/abs/2605.13740)."
-  - date: "14/04/2026"
+  - date: "2026-04-14"
     title: "Joined Stanford HAI"
     description: "Joined the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu) in collaboration with the [Institute for Decentralized AI](https://decentralized-ai.org)"
-  - date: "06/04/2026"
+  - date: "2026-04-06"
     title: "New Preprint"
     description: "Check out the latest paper --> *Planning to Explore: Curiosity-Driven Planning for LLM Test Generation* [(arxiv)](https://arxiv.org/abs/2604.05159)."
-  - date: "06/03/2026"
+  - date: "2026-03-06"
     title: "Talk at USC ISI"
     description: "Gave a talk for the NLP Seminar at the [Information Sciences Institute](https://www.isi.edu) from the University of Southern California. Recording available [here](https://tinyurl.com/usc-isi-presentation)."
-  - date: "08/11/2025"
+  - date: "2025-11-08"
     title: "New Preprint"
     description: "LeMat-Synth a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature [(arxiv)](https://arxiv.org/abs/2510.26824)."
-  - date: "01/10/2025"
+  - date: "2025-10-01"
     title: "Research Visit"
     description: "Started my Research visit at KAUST with Prof. [Jürgen Schmidhuber](https://people.idsia.ch/~juergen/)."
-  - date: "17/09/2025"
+  - date: "2025-09-17"
     title: "Talk at Barcelona Supercomputing Center"
     description: "Visit to the Barcelona Supercomputing Center with an invited talk. More info can be found [here](https://tinyurl.com/bc-talk)."
-  - date: "16/06/2025"
+  - date: "2025-06-16"
     title: "Internship at Morgan Stanley"
     description: "Started my summer internship in the AI team at Morgan Stanley."
 ---
@@ -40,7 +40,7 @@ I am currently a researcher at [Stanford HAI](https://hai.stanford.edu) and the 
 
 Formally, a Computer Science Ph.D. student in the [NLP Lab](http://nlp.cs.ucsb.edu/) at [UC Santa Barbara (UCSB)](https://www.ucsb.edu), where I am advised by Professor [William Wang](https://sites.cs.ucsb.edu/~william/), and I am lucky to be funded by the  [Quantum Foundry Trainee Fellowship](https://quantumfoundry.ucsb.edu/people/fellows/alfonso-amayuelas-fernandez). Previously, I completed a Master's degree in Data Science at [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/), and a double Bachelor's program in Computer Science and Telecommunication Systems Engineering at the [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html).
 
-My research interests spans through a wide range of topics in Machine Learning, Natural Language Processing, and Artificial Intelligence. During my PhD I have done work in (1) Understanding LLM capabilities, (2) Agent-based systems and Agent Communication and Cooperation, (3) Applications of LLMs
+My research interests span a wide range of topics in Machine Learning, Natural Language Processing, and Artificial Intelligence. During my PhD I have done work in (1) Understanding LLM capabilities, (2) Agent-based systems and Agent Communication and Cooperation, (3) Applications of LLMs
 
 I am always open for a conversation, new ideas and projects. If you are interested in any of the topics that I cover or would like to have a chat, feel free to contact me.
 
