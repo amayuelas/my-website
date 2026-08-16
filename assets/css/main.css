@@ -247,11 +247,6 @@ table {
     width: 19px;
 }
 
-/* Increase touch target sizes */
-a {
-    padding: 4px;
-}
-
 .back-to-blog a {
     padding: 10px;
     font-size: 1.1em;
