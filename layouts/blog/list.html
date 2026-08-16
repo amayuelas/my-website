@@ -1,25 +1,25 @@
 {{ define "title" }} {{ .Title }} - {{ .Site.Title }} {{ end }}
 
 {{ define "main" }}
-    <div class="blog-posts blog-page">
-        {{ range .Paginator.Pages }}
-        <div class="blog-post">
-            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-            <div class="blog-meta">{{ .Date.Format "January 2, 2006" }}</div>
-            <div class="blog-summary">
-                {{ if ge (len .Summary) 160 }}
-                {{ $truncated := .Summary | truncate 163 }}
-                {{ $truncated | safeHTML }}
-                <a href="{{ .RelPermalink }}" class="read-more"> (More)</a>
-                {{ else }}
-                {{ .Summary | safeHTML }}
-                {{ end }}
-            </div>
-        </div>
-        {{ end }}
-    </div>
-    
-    {{ if gt .Paginator.TotalPages 1 }}
+<div class="blog-posts blog-page">
+{{ range .Paginator.Pages }}
+<div class="blog-post">
+<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+<div class="blog-meta">{{ .Date.Format "January 2, 2006" }}</div>
+<div class="blog-summary">
+{{ if ge (len .Summary) 160 }}
+{{ $truncated := .Summary | truncate 163 }}
+{{ $truncated | safeHTML }}
+<a href="{{ .RelPermalink }}" class="read-more">(More)</a>
+{{ else }}
+{{ .Summary | safeHTML }}
+{{ end }}
+</div>
+</div>
+{{ end }}
+</div>
+
+{{ if gt .Paginator.TotalPages 1 }}
     <div class="pagination">
         {{ if .Paginator.HasPrev }}
         <a href="{{ .Paginator.Prev.URL }}" class="pagination-link">Previous</a>
