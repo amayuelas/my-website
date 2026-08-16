@@ -4,7 +4,7 @@ title = "Alfonso Amayuelas"
 paginate = 10
 
 [params]
-description = "Researcher at Stanford HAI"
+description = "PhD student @ UC Santa Barbara"
 
 [markup]
   [markup.goldmark]
