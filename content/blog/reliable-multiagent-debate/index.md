@@ -1,7 +1,7 @@
 ---
 title: "Towards a Reliable and Trustworthy MultiAgent Debate"
 date: 2024-11-28
-summary: LLMs tend to be overconfident, always providing an answer to the user's query, even when the model is unsure about the answer. What happens when we ask the LLMs questions for which the answer is unclear even to humans?
+summary: We study adversarial attacks in multi-agent LLM debate, showing a single adversarial agent can persuade other models toward incorrect answers, and explore uncertainty-based methods to make multi-agent communication more reliable.
 ---
 
 <br />

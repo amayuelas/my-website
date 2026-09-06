@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    {{ $description := .Description | default (or (.Param "summary") .Site.Params.description) }}
+    <meta name="description" content="{{ $description }}">
     {{/* OpenGraph / Facebook */}}
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:title" content="{{ .Title | default .Site.Title }}">
-    <meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
+    <meta property="og:description" content="{{ $description }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     {{ $ogImage := resources.Get "images/og-image.png" }}
     {{ if $ogImage }}
@@ -19,7 +20,7 @@
     {{/* Twitter Card */}}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ .Title | default .Site.Title }}">
-    <meta name="twitter:description" content="{{ .Description | default .Site.Params.description }}">
+    <meta name="twitter:description" content="{{ $description }}">
     <meta name="twitter:site" content="@amayuelas">
     {{ if $ogImage }}
     <meta name="twitter:image" content="{{ $ogImage.RelPermalink }}">
