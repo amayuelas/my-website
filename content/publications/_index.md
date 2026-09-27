@@ -8,43 +8,27 @@ draft: false
     Updated list available on 🎓 <a href="https://scholar.google.com/citations?user=QGQ2G28AAAAJ">Google Scholar</a>
 </div>
 
-## Preprints
-
-- **Game-theoretic LLM: Agent Workflow for Negotiation Games**  
-  Wenyue Hua, Ollie Liu, Lingyao Li, **Alfonso Amayuelas**, Julie Chen, Lucas Jiang, Mingyu Jin, Lizhou Fan, Fei Sun, William Wang, Xintong Wang, Yongfeng Zhang  
-  [(Paper)](https://arxiv.org/abs/2411.05990)
-
-- **Self-Resource Allocation in Multi-Agent LLM Systems**  
-  **Alfonso Amayuelas**, Jingbo Yang, Saaket Agashe, Ashwin Nagarajan, Antonis Antoniades, Xin Eric Wang, William Wang  
-  [(Paper)](https://arxiv.org/abs/2504.02051)
-
-- **Agents of Change: Self-Evolving LLM Agents for Strategic Planning**  
-  Nikolas Belle, Dakota Barnes, **Alfonso Amayuelas**, Ivan Bercovich, Xin Eric Wang, William Wang  
-  [(Paper)](https://arxiv.org/abs/2506.04651)
-
-- **LeMat-Synth: a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature**  
-  Magdalena Lederbauer, Siddharth Betala, Xiyao Li, Ayush Jain, Amine Sehaba, Georgia Channing, Grégoire Germain, Anamaria Leonescu, Faris Flaifil, **Alfonso Amayuelas**, Alexandre Nozadze, Stefan P. Schmid, Mohd Zaki, Sudheesh Kumar Ethirajan, Elton Pan, Mathilde Franckel, Alexandre Duval, N. M. Anoop Krishnan, Samuel P. Gleason  
-  [(Paper)](https://arxiv.org/abs/2510.26824)
-
-- **Planning to Explore: Curiosity-Driven Planning for LLM Test Generation**  
-  **Alfonso Amayuelas**, Firas Laakom, Piotr Piękos, Wenyi Wang, Yifan Xu, Yuhui Wang, Jürgen Schmidhuber, William Wang  
-  [(Paper)](https://arxiv.org/abs/2604.05159)
-
-- **Learning POMDP World Models from Observations with Language-Model Priors**  
-  Valentin Six, Frederik Panse, Mathis Fajeau, Lancelot Da Costa, Mridul Sharma, **Alfonso Amayuelas**, Tim Z. Xiao, David Hyland, Philipp Hennig, Bernhard Schölkopf  
-  [(Paper)](https://arxiv.org/abs/2605.13740)
-
-- **Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty**  
-  Antonis Antoniades, Deepak Nathani, Ritam Saha, **Alfonso Amayuelas**, Ivan Bercovich, Zhaotian Weng, Vignesh Baskaran, Kunal Bhatia, William Yang Wang  
-  [(Paper)](https://arxiv.org/abs/2606.25198)
-
-
 ## 2026
 
 - **Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation**  
   Israfel Salazar, Manuel Fernández Burda, Shayekh Bin Islam, Arshia Soltani Moakhar, Shivalika Singh, Fabian Farestam, Angelika Romanou, Danylo Boiko, Dipika Khullar, Mike Zhang, Dominik Krzemiński, Jekaterina Novikova, Luísa Shimabucoro, Joseph Marvin Imperial, Rishabh Maheshwary, Sharad Duwal, **Alfonso Amayuelas**, Swati Rajwal, Jebish Purbey, Ahmed Ruby, Nicholas Popovič, Marek Suppa, Azmine Toushik Wasi, Ram Mohan Rao Kadiyala, Olga Tsymboi, Maksim Kostritsya, Bardia Soltani Moakhar, Gabriel da Costa Merlin, Otávio Ferracioli Coletti, Maral Jabbari Shiviari, MohammadAmin farahani fard, Silvia Fernandez, María Grandury, Dmitry Abulkhanov, Drishti Sharma, Andre Guarnier De Mitri, Leticia Bossatto Marchezi, Setayesh Heydari, Johan Obando-Ceron, Nazar Kohut, Beyza Ermis, Desmond Elliott, Enzo Ferrante, Sara Hooker, Marzieh Fadaee  
   *International Conference on Learning Representations 2026 (ICLR 2026)*  
   [(Paper)](https://arxiv.org/abs/2504.07072)
+
+- **Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty**  
+  Antonis Antoniades, Deepak Nathani, Ritam Saha, **Alfonso Amayuelas**, Ivan Bercovich, Zhaotian Weng, Vignesh Baskaran, Kunal Bhatia, William Yang Wang  
+  *arXiv preprint*  
+  [(Paper)](https://arxiv.org/abs/2606.25198)
+
+- **Learning POMDP World Models from Observations with Language-Model Priors**  
+  Valentin Six, Frederik Panse, Mathis Fajeau, Lancelot Da Costa, Mridul Sharma, **Alfonso Amayuelas**, Tim Z. Xiao, David Hyland, Philipp Hennig, Bernhard Schölkopf  
+  *arXiv preprint*  
+  [(Paper)](https://arxiv.org/abs/2605.13740)
+
+- **Planning to Explore: Curiosity-Driven Planning for LLM Test Generation**  
+  **Alfonso Amayuelas**, Firas Laakom, Piotr Piękos, Wenyi Wang, Yifan Xu, Yuhui Wang, Jürgen Schmidhuber, William Wang  
+  *arXiv preprint*  
+  [(Paper)](https://arxiv.org/abs/2604.05159)
 
 ## 2025
 
@@ -73,6 +57,21 @@ draft: false
   *Workshop on Foundations of Reasoning in Language Models at the Advances in Neural Information Processing Systems (NeurIPS 2025)*  
   [(Paper)](https://arxiv.org/abs/2502.13247)
 
+- **LeMat-Synth: a multi-modal toolbox to curate broad synthesis procedure databases from scientific literature**  
+  Magdalena Lederbauer, Siddharth Betala, Xiyao Li, Ayush Jain, Amine Sehaba, Georgia Channing, Grégoire Germain, Anamaria Leonescu, Faris Flaifil, **Alfonso Amayuelas**, Alexandre Nozadze, Stefan P. Schmid, Mohd Zaki, Sudheesh Kumar Ethirajan, Elton Pan, Mathilde Franckel, Alexandre Duval, N. M. Anoop Krishnan, Samuel P. Gleason  
+  *arXiv preprint*  
+  [(Paper)](https://arxiv.org/abs/2510.26824)
+
+- **Agents of Change: Self-Evolving LLM Agents for Strategic Planning**  
+  Nikolas Belle, Dakota Barnes, **Alfonso Amayuelas**, Ivan Bercovich, Xin Eric Wang, William Wang  
+  *arXiv preprint*  
+  [(Paper)](https://arxiv.org/abs/2506.04651)
+
+- **Self-Resource Allocation in Multi-Agent LLM Systems**  
+  **Alfonso Amayuelas**, Jingbo Yang, Saaket Agashe, Ashwin Nagarajan, Antonis Antoniades, Xin Eric Wang, William Wang  
+  *arXiv preprint*  
+  [(Paper)](https://arxiv.org/abs/2504.02051)
+
 ## 2024
 
 - **MultiAgent Collaboration Attack: Investigating Adversarial Attacks in Large Language Model Collaborations via Debate**  
@@ -89,6 +88,11 @@ draft: false
   **Alfonso Amayuelas**, Kyle Wong, Liangming Pan, Wenhu Chen, William Wang  
   *Findings of the Association for Computational Linguistics, 2024 (ACL 2024)*  
   [(Paper)](https://arxiv.org/abs/2305.13712) [(Code)](https://github.com/amayuelas/knowledge-of-knowledge) [(Data)](https://huggingface.co/datasets/amayuelas/KUQ)
+
+- **Game-theoretic LLM: Agent Workflow for Negotiation Games**  
+  Wenyue Hua, Ollie Liu, Lingyao Li, **Alfonso Amayuelas**, Julie Chen, Lucas Jiang, Mingyu Jin, Lizhou Fan, Fei Sun, William Wang, Xintong Wang, Yongfeng Zhang  
+  *arXiv preprint*  
+  [(Paper)](https://arxiv.org/abs/2411.05990)
 
 ## 2022
 
