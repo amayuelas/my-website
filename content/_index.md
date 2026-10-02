@@ -3,6 +3,9 @@ title: "Home"
 date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
+  - date: "2026-10-02"
+    title: "Attending COLM 2026"
+    description: "Attending [COLM 2026](https://colm.cc/) in San Francisco and presenting in the [GenAI4World Workshop](https://sites.google.com/view/genai4world/?pli=1&authuser=0)."
   - date: "2026-06-23"
     title: "New Preprint"
     description: "New preprint released: *Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty* is now available on arXiv [(arxiv)](https://arxiv.org/abs/2606.25198)."
