@@ -563,17 +563,12 @@ blockquote {
 }
 
 .post-list-title {
-    color: #4a7099;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .post-list-title:hover {
     text-decoration: underline;
-}
-
-[data-bs-theme="dark"] .post-list-title,
-.dark-mode .post-list-title {
-    color: #8faecc;
 }
 
 @media (max-width: 600px) {
