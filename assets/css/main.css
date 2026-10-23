@@ -563,7 +563,7 @@ blockquote {
 }
 
 .post-list-title {
-    color: #4a90e2;
+    color: #4a7099;
     text-decoration: none;
 }
 
@@ -573,7 +573,7 @@ blockquote {
 
 [data-bs-theme="dark"] .post-list-title,
 .dark-mode .post-list-title {
-    color: #7ab3f5;
+    color: #8faecc;
 }
 
 @media (max-width: 600px) {
