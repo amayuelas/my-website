@@ -62,11 +62,13 @@ I am always open for a conversation, new ideas and projects. If you are interest
 
 ### Contact {#contact}
 
-<i class="fas fa-envelope"></i> [Email](mailto:amayuelas@ucsb.edu)<br>
-<i class="fab fa-twitter"></i> [X (Twitter)](https://twitter.com/alfonamayuelas)<br>
-<i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/alfonsoamayuelas/)<br>
-<i class="fab fa-github"></i> [GitHub](https://github.com/amayuelas)<br>
-<i class="fas fa-graduation-cap"></i> [Google Scholar](https://scholar.google.com/citations?user=QGQ2G28AAAAJ)<br>
+<div class="contact-links">
+    <span><i class="fas fa-envelope"></i> <a href="mailto:amayuelas@ucsb.edu">Email</a></span>
+    <span><i class="fab fa-twitter"></i> <a href="https://twitter.com/alfonamayuelas">X (Twitter)</a></span>
+    <span><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/alfonsoamayuelas/">LinkedIn</a></span>
+    <span><i class="fab fa-github"></i> <a href="https://github.com/amayuelas">GitHub</a></span>
+    <span><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=QGQ2G28AAAAJ">Google Scholar</a></span>
+</div>
 
 <div class="quote">
     The limits of my language mean the limits of my world
