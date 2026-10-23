@@ -31,6 +31,28 @@ main {
     text-align: justify;
 }
 
+.home-about p:first-of-type {
+    font-size: 1.15em;
+}
+
+.home-about ul {
+    list-style: none;
+    padding-left: 1.2em;
+    margin: 0.5em 0 1em;
+    text-align: left;
+}
+
+.home-about li {
+    margin-bottom: 0.25em;
+}
+
+.home-about li::before {
+    content: "—";
+    margin-left: -1.2em;
+    margin-right: 0.6em;
+    color: #888;
+}
+
 [data-layout="single-blog"] .blog-post {
     text-align: justify;
 }
