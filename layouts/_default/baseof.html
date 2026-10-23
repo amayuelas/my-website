@@ -160,7 +160,7 @@
         </div>
     </div>
     
-    <main>
+    <main{{ if eq .Section "blog" }} class="blog-main"{{ end }}>
         {{ block "main" . }}{{ end }}
     </main>
     

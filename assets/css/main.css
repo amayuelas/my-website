@@ -741,7 +741,16 @@ th {
 
     .blog-post {
         margin-bottom: 20px;
-        padding: 15px;
+        padding: 15px 0;
+    }
+
+    .blog-main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blog-posts {
+        margin-top: 10px;
     }
 
     /* Ensure hr elements have proper spacing on mobile */
