@@ -564,7 +564,13 @@ blockquote {
 
 .post-list-title {
     color: var(--text-color);
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px dotted var(--text-color);
+    transition: all .2s ease;
+}
+
+.post-list-title:hover {
+    border-bottom: 1px solid var(--text-color);
 }
 
 @media (max-width: 600px) {
