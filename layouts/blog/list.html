@@ -2,21 +2,14 @@
 
 {{ define "main" }}
 <div class="blog-posts blog-page">
+<ul class="post-list">
 {{ range .Paginator.Pages }}
-<div class="blog-post">
-<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-<div class="blog-meta">{{ .Date.Format "January 2, 2006" }}</div>
-<div class="blog-summary">
-{{ if ge (len .Summary) 160 }}
-{{ $truncated := .Summary | truncate 163 }}
-{{ $truncated | safeHTML }}
-<a href="{{ .RelPermalink }}" class="read-more">(More)</a>
-{{ else }}
-{{ .Summary | safeHTML }}
+<li class="post-list-item">
+<span class="post-list-date">{{ .Date.Format "2006 Jan" }}</span>
+<a href="{{ .RelPermalink }}" class="post-list-title">{{ .Title }}</a>
+</li>
 {{ end }}
-</div>
-</div>
-{{ end }}
+</ul>
 </div>
 
 {{ if gt .Paginator.TotalPages 1 }}
@@ -39,4 +32,3 @@
     </div>
     {{ end }}
 {{ end }}
-

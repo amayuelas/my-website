@@ -540,6 +540,54 @@ blockquote {
     line-height: 1.6;
 }
 
+.post-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.post-list-item {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 7px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.post-list-item:last-child {
+    border-bottom: none;
+}
+
+[data-bs-theme="dark"] .post-list-item,
+.dark-mode .post-list-item {
+    border-bottom-color: #3a3a3a;
+}
+
+.post-list-date {
+    flex-shrink: 0;
+    min-width: 5.5rem;
+    color: #888;
+    font-size: 0.9em;
+    white-space: nowrap;
+}
+
+.post-list-title {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.post-list-title:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .post-list-item {
+        flex-direction: column;
+        gap: 2px;
+    }
+}
+
 .pagination {
     display: flex;
     justify-content: center;
