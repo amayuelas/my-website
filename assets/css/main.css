@@ -46,19 +46,6 @@ main {
 
 .blog-posts {
     padding-top: 0;
-    margin-top: -20px;
-}
-
-.blog-page header {
-    margin-bottom: 5px;
-}
-
-.blog-page .desktop-nav {
-    margin-bottom: 0;
-}
-
-.blog-page main {
-    padding-top: 10px;
 }
 
 .blog-post:first-child {
@@ -144,9 +131,6 @@ h1 {
     }
     .desktop-nav {
         display: none !important;
-    }
-    .blog-page main {
-        padding-top: 0 !important;
     }
     .blog-post:first-child {
         margin-top: 0 !important;
