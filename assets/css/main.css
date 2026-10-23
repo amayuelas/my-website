@@ -572,6 +572,12 @@ blockquote {
         font-size: 17px;
         line-height: 1.7;
     }
+    .home-about,
+    .home-about p {
+        text-align: left;
+        font-size: 17px;
+        line-height: 1.7;
+    }
 }
 
 .pagination {
