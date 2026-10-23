@@ -562,6 +562,18 @@ blockquote {
     }
 }
 
+/* Mobile reading typography for blog posts, per news-site practice:
+   ragged right instead of justified, slightly larger type */
+@media (max-width: 768px) {
+    [data-layout="single-blog"] .blog-post,
+    [data-layout="single-blog"] .blog-post p,
+    [data-layout="single-blog"] .blog-post div {
+        text-align: left;
+        font-size: 17px;
+        line-height: 1.7;
+    }
+}
+
 .pagination {
     display: flex;
     justify-content: center;
