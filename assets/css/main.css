@@ -552,16 +552,6 @@ blockquote {
     align-items: baseline;
     gap: 16px;
     padding: 7px 0;
-    border-bottom: 1px solid #eee;
-}
-
-.post-list-item:last-child {
-    border-bottom: none;
-}
-
-[data-bs-theme="dark"] .post-list-item,
-.dark-mode .post-list-item {
-    border-bottom-color: #3a3a3a;
 }
 
 .post-list-date {
@@ -574,10 +564,6 @@ blockquote {
 
 .post-list-title {
     color: var(--text-color);
-    text-decoration: none;
-}
-
-.post-list-title:hover {
     text-decoration: underline;
 }
 
