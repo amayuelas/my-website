@@ -15,6 +15,16 @@ draft: false
   *International Conference on Learning Representations 2026 (ICLR 2026)*  
   [(Paper)](https://arxiv.org/abs/2504.07072)
 
+- **INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation**  
+  Angelika Romanou, María Grandury, Clara Meister, Negar Foroutan, Jabez Magomere, Anna Sotnikova, Hitesh Laxmichand Patel, Akshay Kumar Dubey, **Alfonso Amayuelas**, Amit Agarwal, Arion Das, Carlos Arriaga, Cheng Yu, Dalia Ali, David Quispe-Castillo, Fenal Ashokbhai Ilasariya, Francisco-Javier Rodrigo-Ginés, Gonzalo Martínez, Gouthami Vadithya, Guido Ivetta, Javier Conde, Jorge Vallego, Juan J. Calderón G., Karan Gupta, Marcos J Gomez, Marvin M. Agüero-Torales, Mithil Bangera, Naira Paola Arnez Jordan, Oscar M. Cumbicus-Pineda, Priyaranjan Pattnayak, Reewos Erwin Talla Chumpitaz, Sahil Aggarwal, Sahil Raj, Shruti Jalan, Srikant Panda, Susana Zhou, Yeshil Bangera, Orestis Papakyriakopoulos, Scott A. Hale, Shamsuddeen Hassan Muhammad, Antoine Bosselut  
+  *Conference on Empirical Methods in Natural Language Processing 2026 (EMNLP 2026)*  
+  [(Paper)](https://aclanthology.org/2026.emnlp-main.1344/)
+
+- **OASIS: Online Anchor-calibrated Self-Improvement System**  
+  Wenyi Wang, Firas Laakom, Li Nanbo, Yanning Dai, Yuhui Wang, Yifan Xu, Dmitrii Khizbullin, Piotr Piękos, Yilan Zhang, Yimeng Chen, **Alfonso Amayuelas**, Mingchen Zhuge, Jürgen Schmidhuber  
+  *Findings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*  
+  [(Paper)](https://aclanthology.org/2026.findings-emnlp.2150/)
+
 - **Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty**  
   Antonis Antoniades, Deepak Nathani, Ritam Saha, **Alfonso Amayuelas**, Ivan Bercovich, Zhaotian Weng, Vignesh Baskaran, Kunal Bhatia, William Yang Wang  
   *arXiv preprint*  
