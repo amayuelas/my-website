@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Alfonso Amayuelas"
 date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
@@ -63,11 +63,11 @@ I am always open for a conversation, new ideas and projects. If you are interest
 ### Contact {#contact}
 
 <div class="contact-links">
-    <span><i class="fas fa-envelope"></i> <a href="mailto:amayuelas@ucsb.edu">Email</a></span>
-    <span><i class="fab fa-twitter"></i> <a href="https://twitter.com/alfonamayuelas">X (Twitter)</a></span>
-    <span><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/alfonsoamayuelas/">LinkedIn</a></span>
-    <span><i class="fab fa-github"></i> <a href="https://github.com/amayuelas">GitHub</a></span>
-    <span><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=QGQ2G28AAAAJ">Google Scholar</a></span>
+    <span>{{< icon "envelope" >}} <a href="mailto:amayuelas@ucsb.edu">Email</a></span>
+    <span>{{< icon "x-twitter" >}} <a href="https://twitter.com/alfonamayuelas">X (Twitter)</a></span>
+    <span>{{< icon "linkedin" >}} <a href="https://www.linkedin.com/in/alfonsoamayuelas/">LinkedIn</a></span>
+    <span>{{< icon "github" >}} <a href="https://github.com/amayuelas">GitHub</a></span>
+    <span>{{< icon "graduation-cap" >}} <a href="https://scholar.google.com/citations?user=QGQ2G28AAAAJ">Google Scholar</a></span>
 </div>
 
 <div class="quote">

@@ -1,6 +1,7 @@
 ---
 title: "Planning to Explore: Curiosity-Driven Planning for LLM Test Generation"
 date: 2026-04-14
+tags: ["llms", "agents", "reinforcement-learning"]
 summary: How curiosity-driven planning, grounded in a 35-year thread of information-theoretic exploration, helps LLMs break through the coverage plateau in automated test generation.
 ---
 
@@ -99,11 +100,11 @@ CovQValue outperforms greedy selection by 51-77% on TestGenEval Lite and 40-74% 
 <div style="display: flex; gap: 2%; align-items: flex-start;">
   <figure style="width: 49%; margin: 0;">
     <figcaption style="text-align: center; font-size: 0.9em; font-style: italic;">RepoExploreBench</figcaption>
-    <img src="fig1_exploration_curves_reb.png" style="width: 100%;">
+    {{< img src="fig1_exploration_curves_reb.png" style="width: 100%;" >}}
   </figure>
   <figure style="width: 49%; margin: 0;">
     <figcaption style="text-align: center; font-size: 0.9em; font-style: italic;">TestGenEval Lite</figcaption>
-    <img src="fig1_exploration_curves_tge.png" style="width: 100%;">
+    {{< img src="fig1_exploration_curves_tge.png" style="width: 100%;" >}}
   </figure>
 </div>
 

@@ -1,0 +1,22 @@
+{{- /* img shortcode: processes a page-bundle image (downscale >1200px, WebP, lazy loading)
+       while preserving the original display style, e.g.
+       {{< img src="figure.png" alt="A figure" width="75%" style="display: inline;" >}}
+       `width` is folded into the style attribute; when a style is present, intrinsic
+       width/height attrs are omitted to avoid aspect-ratio distortion. */ -}}
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $style := .Get "style" | default "" -}}
+{{- with .Get "width" -}}{{- $style = printf "%s width: %s;" $style . -}}{{- end -}}
+{{- $res := .Page.Resources.GetMatch (strings.TrimPrefix "./" $src) -}}
+{{- if $res -}}
+  {{- $img := $res -}}
+  {{- if gt $res.Width 1200 -}}{{- $img = $res.Resize "1200x" -}}{{- end -}}
+  {{- $img = $img.Process "webp q82" -}}
+  {{- if $style -}}
+<img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" loading="lazy" decoding="async" style="{{ $style | safeCSS }}">
+  {{- else -}}
+<img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy" decoding="async">
+  {{- end -}}
+{{- else -}}
+<img src="{{ $src | safeURL }}" alt="{{ $alt }}" loading="lazy" decoding="async"{{ if $style }} style="{{ $style | safeCSS }}"{{ end }}>
+{{- end -}}

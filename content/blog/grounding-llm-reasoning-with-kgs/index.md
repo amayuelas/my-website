@@ -1,13 +1,14 @@
 ---
 title: "Grounding LLM Reasoning with Knowledge Graphs"
 date: 2025-03-01
+tags: ["llms", "knowledge-graphs", "reasoning"]
 summary: We discuss the integration of LLMs with Knowledge Graphs (KGs) to ground their reasoning capabilities. It highlights the importance of KGs in providing structured knowledge that is interpretable and computationally efficient. The integration of KGs with LLMs helps in reducing hallucinations and ensuring that the generated outputs are grounded in verifiable data.
 ---
 
 In the rapidly evolving landscape of artificial intelligence, the integration of LLMs with Knowledge Graphs (KGs) is emerging as a transparency approach to ground reasoning capabilities. This blog post explores the significance of this integration, the methodologies involved in our work, and the potential it unlocks for various applications.  
 
 <p align="center">
-  <img width="90%" src="general.png" style="display: inline;" />
+  {{< img src="general.png" width="90%" style="display: inline;" >}}
 </p>
 
 ## The Importance of Knowledge Graphs for LLMs  
@@ -39,7 +40,7 @@ Agentic methods involve the LLM selecting from a set of predefined actions to in
 ### Automatic Graph Exploration  
 
 <p>
-  <img width="55%" src="graph_search.png" style="float: right;" />
+  {{< img src="graph_search.png" width="55%" style="float: right;" >}}
 </p>
 
 Automatic graph exploration methods allow the LLM to automatically search the KG based on the generated text from the previous step. This method involves entity recognition and graph exploration, ensuring that the reasoning process is dynamically grounded in the KG.  
@@ -47,7 +48,7 @@ Automatic graph exploration methods allow the LLM to automatically search the KG
 ### Reasoning Strategies  
 
 <p align="center">
-  <img width="90%" src="reasoning.png" style="display: inline;" />
+  {{< img src="reasoning.png" width="90%" style="display: inline;" >}}
 </p>
   
 Various reasoning strategies can be employed to enhance the integration of KGs with LLMs:  

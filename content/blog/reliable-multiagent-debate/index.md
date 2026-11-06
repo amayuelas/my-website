@@ -1,6 +1,7 @@
 ---
 title: "Towards a Reliable and Trustworthy MultiAgent Debate"
 date: 2024-11-28
+tags: ["llms", "multi-agent", "security"]
 summary: We study adversarial attacks in multi-agent LLM debate, showing a single adversarial agent can persuade other models toward incorrect answers, and explore uncertainty-based methods to make multi-agent communication more reliable.
 ---
 
@@ -9,7 +10,7 @@ summary: We study adversarial attacks in multi-agent LLM debate, showing a singl
 ## MultiAgent Collaboration Attack
 
 <p align="center">
-  <img width="60%" src="collab-description-plot.png" style="display: inline" />
+  {{< img src="collab-description-plot.png" width="60%" style="display: inline" >}}
 </p>
 
 We foresee a future where LLM-based agents will interact with other agents. Sometimes, these interactions may be within the same organization, or sometimes, the programmer will select agents to interact with agents from different organizations, similar to APIs today. This will allow the creation of multi-agent systems based on different models and controlled by different organizations. But what happens if the agents we do not control do not do what we were expecting?
@@ -20,7 +21,7 @@ We selected multiple-choice question-answering datasets (TruthfulQA, MMLU, MedMC
 
 <br />
 <p align="center">
-  <img width="90%" src="attack_idea_example.png" style="display: inline" />
+  {{< img src="attack_idea_example.png" width="90%" style="display: inline" >}}
 </p>
 <br />
 
@@ -40,7 +41,7 @@ How can we further improve the conversation between LLMs? In the original paper,
 <br />
 
 <p align="center">
-  <img width="75%" src="table_horizontal.png" style="display: inline" />
+  {{< img src="table_horizontal.png" width="75%" style="display: inline" >}}
 </p>
 
 <br />

@@ -1,6 +1,7 @@
 ---
 title: "Exploring the Frontier of Uncertainty with Large Language Models: The Role of Known-Unknown Questions"
 date: 2024-06-20
+tags: ["llms", "uncertainty"]
 summary: LLMs tend to be overconfident, always providing an answer to the user's query, even when the model is unsure about the answer. What happens when we ask the LLMs questions for which the answer is unclear even to humans?
 ---
 
@@ -31,7 +32,7 @@ We have collected unknown questions from crowd-source workers and generated a ne
 
 
 <p align="center">
-  <img width="75%" src="Dataset-Generation.png" style="display: inline;" />
+  {{< img src="Dataset-Generation.png" width="75%" style="display: inline;" >}}
 </p>
 
 We have categorized the data according to the uncertainty sources. This dataset is more comprehensive than previous ones as it includes a larger set of categories and questions

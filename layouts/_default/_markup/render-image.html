@@ -1,0 +1,12 @@
+{{- /* Render images with lazy loading, intrinsic dimensions (avoids CLS),
+       downscale anything wider than 1200px, and serve as WebP. */ -}}
+{{- $dest := .Destination -}}
+{{- $res := .Page.Resources.GetMatch (strings.TrimPrefix "./" $dest) -}}
+{{- if $res -}}
+  {{- $img := $res -}}
+  {{- if gt $res.Width 1200 -}}{{- $img = $res.Resize "1200x" -}}{{- end -}}
+  {{- $img = $img.Process "webp q82" -}}
+<img src="{{ $img.RelPermalink }}" alt="{{ .Text | plainify }}" width="{{ $img.Width }}" height="{{ $img.Height }}" loading="lazy" decoding="async"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- else -}}
+<img src="{{ $dest | safeURL }}" alt="{{ .Text | plainify }}" loading="lazy" decoding="async"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- end -}}

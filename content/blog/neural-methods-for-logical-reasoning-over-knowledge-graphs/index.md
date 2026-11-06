@@ -1,6 +1,7 @@
 ---
 title: "Neural Methods for Logical Reasoning over Knowledge Graphs"
 date: 2022-11-13
+tags: ["knowledge-graphs", "reasoning"]
 summary: In this work, we explore and try to improve how we can answer complex logical queries over knowledge graphs. We call them complex logical queries because the questions can be decomposed into multiple logical statements to reach the final answer.  
 ---
 
@@ -13,7 +14,7 @@ For instance, we can decompose a query such as *What drug can be used to treat p
 But first, why Knowledge Graphs? Well, Knowledge Graphs are a convenient way to store information in intelligent systems. They store interlinked descriptions of entities (objects, events, abstract concepts) and their connections between them. In the image below, you can see an example of a Knowledge Graph.
 
 <p align="center">
-  <img width="90%" src="knowledge-graph.jpg" alt="A Knowledge Graph" style="display: inline;" />
+  {{< img src="knowledge-graph.jpg" alt="A Knowledge Graph" width="90%" style="display: inline;" >}}
 </p>
 
 
@@ -22,7 +23,7 @@ And how can we do to answer these complex queries? There are several methods, bu
 Building on top of this work, we explored different kind of Neural Networks to build the logical operators, including the projection operation in the vector space. This was key to obtain better results. A sample representation of this method can be found in the image below for the query: *"List the teams where Brazilian football players who were awarded a Ballon d’Or played"*.
 
 <p align="center">
-  <img width="90%" src="sample-query.png" alt="Sample query" style="display: inline;" />
+  {{< img src="sample-query.png" alt="Sample query" width="90%" style="display: inline;" >}}
 </p>
 
 In addition, we also tested learning the negation operation, which allows using full First-Order logical queries. It is not clear the representation of a negative entity. But we argue that a faithful goemtric representation of the operator is not needed. 
