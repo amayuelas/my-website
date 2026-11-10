@@ -10,6 +10,11 @@ draft: false
 
 ## 2026
 
+- **Sampling Is Not Curiosity: Why LLM Agents Should Investigate**  
+  **Alfonso Amayuelas**, Piotr Piękos, Xin Eric Wang, William Yang Wang, Jürgen Schmidhuber, Alex Pentland  
+  *Conference on Neural Information Processing Systems 2026 (NeurIPS 2026), Position Paper Track — Spotlight*  
+  [(Paper)](https://arxiv.org/abs/2611.10501)
+
 - **Kaleidoscope: In-language Exams for Massively Multilingual Vision Evaluation**  
   Israfel Salazar, Manuel Fernández Burda, Shayekh Bin Islam, Arshia Soltani Moakhar, Shivalika Singh, Fabian Farestam, Angelika Romanou, Danylo Boiko, Dipika Khullar, Mike Zhang, Dominik Krzemiński, Jekaterina Novikova, Luísa Shimabucoro, Joseph Marvin Imperial, Rishabh Maheshwary, Sharad Duwal, **Alfonso Amayuelas**, Swati Rajwal, Jebish Purbey, Ahmed Ruby, Nicholas Popovič, Marek Suppa, Azmine Toushik Wasi, Ram Mohan Rao Kadiyala, Olga Tsymboi, Maksim Kostritsya, Bardia Soltani Moakhar, Gabriel da Costa Merlin, Otávio Ferracioli Coletti, Maral Jabbari Shiviari, MohammadAmin farahani fard, Silvia Fernandez, María Grandury, Dmitry Abulkhanov, Drishti Sharma, Andre Guarnier De Mitri, Leticia Bossatto Marchezi, Setayesh Heydari, Johan Obando-Ceron, Nazar Kohut, Beyza Ermis, Desmond Elliott, Enzo Ferrante, Sara Hooker, Marzieh Fadaee  
   *International Conference on Learning Representations 2026 (ICLR 2026)*  
