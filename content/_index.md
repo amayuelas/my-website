@@ -3,6 +3,9 @@ title: "Alfonso Amayuelas"
 date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
+  - date: "2026-11-13"
+    title: "Accepted Paper at EACL"
+    description: "One paper accepted at [EACL 2027](https://2027.eacl.org/) in Athens, Greece."
   - date: "2026-10-02"
     title: "Attending COLM 2026"
     description: "Attending [COLM 2026](https://colm.cc/) in San Francisco and presenting in the [GenAI4World Workshop](https://sites.google.com/view/genai4world/?pli=1&authuser=0)."
