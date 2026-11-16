@@ -45,7 +45,7 @@ news_items:
 
 <div class="home-about">
 
-I am a researcher at [Stanford HAI](https://hai.stanford.edu) and the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu) with Prof. [Alex Sandy Pentland](https://digitaleconomy.stanford.edu/person/sandy-pentland/), supported by the [Institute for Decentralized AI](https://decentralized-ai.org).
+I am a researcher at [Stanford HAI](https://hai.stanford.edu) and the [Stanford Digital Economy Lab](https://digitaleconomy.stanford.edu) with Prof. [Alex "Sandy" Pentland](https://digitaleconomy.stanford.edu/person/sandy-pentland/), supported by the [Institute for Decentralized AI](https://decentralized-ai.org).
 
 I am a Computer Science Ph.D. student in the [AI Lab](http://nlp.cs.ucsb.edu/) at [UC Santa Barbara (UCSB)](https://www.ucsb.edu), where I am advised by Professor [William Wang](https://sites.cs.ucsb.edu/~william/) and funded by the [Quantum Foundry Trainee Fellowship](https://quantumfoundry.ucsb.edu/people/fellows/alfonso-amayuelas-fernandez). Previously, I completed a Master's degree in Data Science at [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/en/), and a double Bachelor's program in Computer Science and Telecommunication Systems Engineering at the [Autonomous University of Barcelona](https://www.uab.cat/web/universitat-autonoma-de-barcelona-1345467954774.html).
 
