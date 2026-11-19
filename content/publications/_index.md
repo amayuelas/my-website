@@ -30,6 +30,11 @@ draft: false
   *Findings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*  
   [(Paper)](https://aclanthology.org/2026.findings-emnlp.2150/)
 
+- **A Society of AI Scientists**  
+  Rehaan Ahmad, Myles Anderson, Ao Qu, Mars Gao, Yubin Kim, Josiah Aklilu, **Alfonso Amayuelas**, Summer Eunhyung Ann, Riccardo Cadei, Sajib Acharjee Dip, Nadim Farhat, Akash Haridas, A. Ali Heydari, Shih-Cheng Huang, Yukun Huang, Zhihan Jiang, Lars Benedikt Kaesberg, Art Kanke, Daniel Kim, Bo-Han Lai, Kayla Leung, Jianping Li, Zhanzhao Li, Kazi Mehrab, Kanwal Mehreen, Michael Moor, Ajinkya Kiran Mulay, Raj Palleti, Pouya Sadeghi, Arth Singh, Min Woo Sun, Manan Tayal, Tao Tu, Lino Le Van, Abdul Waheed, Fiona Y. Wang, Lukas Weidener, Zhen Wu, Xuhai “Orson” Xu, Dingling Yao, Rojin Ziaei, Boyang Zhong, Haotian Zong, Lin Yang, Markus J. Buehler, Samuel Schmidgall  
+  *alphaXiv preprint*  
+  [(Paper)](https://www.alphaxiv.org/abs/2611.society-ai-scientists)
+
 - **Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty**  
   Antonis Antoniades, Deepak Nathani, Ritam Saha, **Alfonso Amayuelas**, Ivan Bercovich, Zhaotian Weng, Vignesh Baskaran, Kunal Bhatia, William Yang Wang  
   *arXiv preprint*  

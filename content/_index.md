@@ -3,6 +3,9 @@ title: "Alfonso Amayuelas"
 date: 2024-03-12T10:00:00-05:00
 draft: false
 news_items:
+  - date: "2026-11-19"
+    title: "New Preprint"
+    description: "New preprint released: *A Society of AI Scientists* is now available on alphaXiv [(alphaxiv)](https://www.alphaxiv.org/abs/2611.society-ai-scientists)."
   - date: "2026-11-13"
     title: "Accepted Paper at EACL"
     description: "One paper accepted at [EACL 2027](https://2027.eacl.org/) in Athens, Greece."
