@@ -7,6 +7,8 @@
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2a2a2a">
     {{ $description := .Description | default (or (.Param "summary") .Site.Params.description) }}
     <meta name="description" content="{{ $description }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} - Blog" href="{{ "blog/index.xml" | absURL }}">
     {{/* OpenGraph / Facebook */}}
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ .Permalink }}">
@@ -50,9 +52,10 @@
           "@type": "Organization",
           "name": "Stanford HAI"
         }
-      ],
+      ]
     }
     </script>
+    {{ if hugo.IsProduction }}
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WJ6264TPX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -60,6 +63,7 @@
         gtag('js', new Date());
         gtag('config', 'G-0WJ6264TPX');
     </script>
+    {{ end }}
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     <link rel="icon" type="image/png" href="{{ "favicon.png" | relURL }}">
 
