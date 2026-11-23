@@ -6,97 +6,97 @@ draft: false
 
 ## Education
 
-<div class="experience-entry">
-    <a href="https://www.ucsb.edu" class="experience-logo">
-        <img loading="lazy" decoding="async" src="/assets/img/logo_ucsb.png" alt="UCSB Logo">
-    </a>
-    <div class="experience-details">
-        <p><strong>University of California, Santa Barbara</strong></p>
-        <p><em>PhD Computer Science</em></p>
-        <p>Advisor: William Yang Wang</p>
-        <p><em>2022 - ongoing</em></p>
+<div class="education-group">
+    <div class="experience-entry">
+        <a href="https://www.ucsb.edu" class="experience-logo">
+            <img loading="lazy" decoding="async" src="/assets/img/logo_ucsb.png" alt="UCSB Logo">
+        </a>
+        <div class="experience-details">
+            <p><strong>University of California, Santa Barbara</strong></p>
+            <p><em>PhD Computer Science</em></p>
+            <p>Advisor: William Yang Wang</p>
+            <p><em>2022 - ongoing</em></p>
+        </div>
+    </div>
+    <div class="education-visits">
+        <div class="experience-entry experience-visit">
+            <a href="https://www.stanford.edu" class="experience-logo">
+                <img loading="lazy" decoding="async" src="/assets/img/logo_stanford.png" alt="Stanford Logo">
+            </a>
+            <div class="experience-details">
+                <p><strong>Stanford University</strong></p>
+                <p><em>PhD Research Visit</em></p>
+                <p>Advisor: Alex "Sandy" Pentland</p>
+                <p><em>April 2026 - ongoing</em></p>
+            </div>
+        </div>
+        <div class="experience-entry experience-visit">
+            <a href="https://www.kaust.edu.sa/en/" class="experience-logo">
+                <img loading="lazy" decoding="async" src="/assets/img/logo_KAUST.png" alt="KAUST Logo">
+            </a>
+            <div class="experience-details">
+                <p><strong>King Abdullah University of Science and Technology (KAUST)</strong></p>
+                <p><em>PhD Research Visit</em></p>
+                <p>Advisor: Jürgen Schmidhuber</p>
+                <p><em>Sept 2025 - Dec 2025</em></p>
+            </div>
+        </div>
     </div>
 </div>
 
 <hr class="entry-separator">
 
-<div class="experience-entry">
-    <a href="https://www.stanford.edu" class="experience-logo">
-        <img loading="lazy" decoding="async" src="/assets/img/logo_stanford.png" alt="Stanford Logo">
-    </a>
-    <div class="experience-details">
-        <p><strong>Stanford University</strong></p>
-        <p><em>PhD Research Visit</em></p>
-        <p>Advisor: Alex "Sandy" Pentland</p>
-        <p><em>April 2026 - ongoing</em></p>
+<div class="education-group">
+    <div class="experience-entry">
+        <a href="https://www.epfl.ch" class="experience-logo">
+            <img loading="lazy" decoding="async" src="/assets/img/logo_epfl.png" alt="EPFL Logo">
+        </a>
+        <div class="experience-details">
+            <p><strong>École Polytechnique Fédérale de Lausanne (EPFL)</strong></p>
+            <p><em>MSc Data Science</em></p>
+            <p><em>2019 - 2021</em></p>
+        </div>
+    </div>
+    <div class="education-visits">
+        <div class="experience-entry experience-visit">
+            <a href="https://ethz.ch" class="experience-logo">
+                <img loading="lazy" decoding="async" src="/assets/img/logo_ethz.png" alt="ETH Zurich Logo">
+            </a>
+            <div class="experience-details">
+                <p><strong>ETH Zurich</strong></p>
+                <p><em>Master's Thesis</em></p>
+                <p>Advisor: Ce Zhang (ETHZ), Karl Aberer (EPFL)</p>
+                <p><em>Feb 2021 - Sept 2021</em></p>
+            </div>
+        </div>
     </div>
 </div>
 
 <hr class="entry-separator">
 
-<div class="experience-entry">
-    <a href="https://www.kaust.edu.sa/en/" class="experience-logo">
-        <img loading="lazy" decoding="async" src="/assets/img/logo_KAUST.png" alt="KAUST Logo">
-    </a>
-    <div class="experience-details">
-        <p><strong>King Abdullah University of Science and Technology (KAUST)</strong></p>
-        <p><em>PhD Research Visit</em></p>
-        <p>Advisor: Jürgen Schmidhuber</p>
-        <p><em>Sept 2025 - Dec 2025</em></p>
+<div class="education-group">
+    <div class="experience-entry">
+        <a href="https://www.uab.cat" class="experience-logo">
+            <img loading="lazy" decoding="async" src="/assets/img/logo_uab.png" alt="UAB Logo">
+        </a>
+        <div class="experience-details">
+            <p><strong>Autonomous University of Barcelona</strong></p>
+            <p><em>BSc Computer Science</em></p>
+            <p><em>BSc Telecommunication Systems Engineering</em></p>
+            <p><em>2014 - 2019</em></p>
+        </div>
     </div>
-</div>
-
-<hr class="entry-separator">
-
-<div class="experience-entry">
-    <a href="https://www.epfl.ch" class="experience-logo">
-        <img loading="lazy" decoding="async" src="/assets/img/logo_epfl.png" alt="EPFL Logo">
-    </a>
-    <div class="experience-details">
-        <p><strong>École Polytechnique Fédérale de Lausanne (EPFL)</strong></p>
-        <p><em>MSc Data Science</em></p>
-        <p><em>2019 - 2021</em></p>
-    </div>
-</div>
-
-<hr class="entry-separator">
-
-<div class="experience-entry">
-    <a href="https://ethz.ch" class="experience-logo">
-        <img loading="lazy" decoding="async" src="/assets/img/logo_ethz.png" alt="ETH Zurich Logo">
-    </a>
-    <div class="experience-details">
-        <p><strong>ETH Zurich</strong></p>
-        <p><em>Master's Thesis</em></p>
-        <p>Advisor: Ce Zhang (ETHZ), Karl Aberer (EPFL)</p>
-        <p><em>Feb 2021 - Sept 2021</em></p>
-    </div>
-</div>
-
-<hr class="entry-separator">
-
-<div class="experience-entry">
-    <a href="https://www.uab.cat" class="experience-logo">
-        <img loading="lazy" decoding="async" src="/assets/img/logo_uab.png" alt="UAB Logo">
-    </a>
-    <div class="experience-details">
-        <p><strong>Autonomous University of Barcelona</strong></p>
-        <p><em>BSc Computer Science</em></p>
-        <p><em>BSc Telecommunication Systems Engineering</em></p>
-        <p><em>2014 - 2019</em></p>
-    </div>
-</div>
-
-<hr class="entry-separator">
-
-<div class="experience-entry">
-    <a href="https://ucsd.edu" class="experience-logo">
-        <img loading="lazy" decoding="async" src="/assets/img/logo_ucsd.png" alt="UCSD Logo">
-    </a>
-    <div class="experience-details">
-        <p><strong>University of California, San Diego</strong></p>
-        <p><em>Computer Engineering (UCEAP Program)</em></p>
-        <p><em>2017 - 2018</em></p>
+    <div class="education-visits">
+        <div class="experience-entry experience-visit">
+            <a href="https://ucsd.edu" class="experience-logo">
+                <img loading="lazy" decoding="async" src="/assets/img/logo_ucsd.png" alt="UCSD Logo">
+            </a>
+            <div class="experience-details">
+                <p><strong>University of California, San Diego</strong></p>
+                <p><em>Computer Engineering (UCEAP Program)</em></p>
+                <p><em>2017 - 2018</em></p>
+            </div>
+        </div>
     </div>
 </div>
 

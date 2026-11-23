@@ -419,6 +419,40 @@ table {
     margin: 5px 0;
 }
 
+.education-group > .experience-entry {
+    margin-bottom: 16px;
+}
+
+.education-visits {
+    margin-left: 47px;
+    padding-left: 28px;
+    border-left: 2px solid rgba(var(--text-color-rgb), 0.25);
+    margin-bottom: 30px;
+}
+
+.education-visits .experience-entry {
+    margin-bottom: 16px;
+}
+
+.education-visits .experience-entry:last-child {
+    margin-bottom: 0;
+}
+
+.experience-visit .experience-logo {
+    width: 64px;
+}
+
+@media (max-width: 768px) {
+    .education-visits {
+        margin-left: 40px;
+        padding-left: 20px;
+    }
+
+    .experience-visit .experience-logo {
+        width: 56px;
+    }
+}
+
 .section-separator {
     margin: 40px 0;
 }
