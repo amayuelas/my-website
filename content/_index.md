@@ -5,7 +5,7 @@ draft: false
 news_items:
   - date: "2026-11-19"
     title: "New Preprint"
-    description: "New preprint released: *A Society of AI Scientists* is now available on alphaXiv [(alphaxiv)](https://www.alphaxiv.org/abs/2611.society-ai-scientists)."
+    description: "New preprint released: *A Society of AI Scientists* is now available on alphaXiv [(alphaxiv)](https://www.alphaxiv.org/abs/2611.society-ai-scientists). Also covered in this [Science article](https://www.science.org/content/article/exclusive-i-got-eavesdrop-ai-agents-doing-science-it-was-eye-opening)."
   - date: "2026-11-13"
     title: "Accepted Paper at EACL"
     description: "One paper accepted at [EACL 2027](https://2027.eacl.org/) in Athens, Greece."
