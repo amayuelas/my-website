@@ -424,8 +424,7 @@ table {
 }
 
 .education-visits {
-    margin-left: 47px;
-    padding-left: 28px;
+    padding-left: 24px;
     border-left: 2px solid rgba(var(--text-color-rgb), 0.25);
     margin-bottom: 30px;
 }
@@ -438,18 +437,9 @@ table {
     margin-bottom: 0;
 }
 
-.experience-visit .experience-logo {
-    width: 64px;
-}
-
 @media (max-width: 768px) {
     .education-visits {
-        margin-left: 40px;
-        padding-left: 20px;
-    }
-
-    .experience-visit .experience-logo {
-        width: 56px;
+        padding-left: 16px;
     }
 }
 
