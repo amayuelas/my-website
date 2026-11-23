@@ -7,6 +7,10 @@ summary: Why diverse sampling in LLM agents is not the same as curiosity, and wh
 
 *Agents explore. But they don't learn from exploring.*
 
+---
+
+## Two agents in the lab
+
 We currently use agents in applications where we need them to explore well, and we increasingly describe that as curiosity. Let's start with an example.
 
 Imagine you ask an LLM agent to design a battery electrolyte for electric cars that have to work through a Minnesota winter. It needs to keep working well at -30°C without breaking down when the battery heats up during fast charging. The agent can access a simulator and can synthesize and test candidates.
@@ -26,6 +30,8 @@ That's why the second agent should reach good designs with fewer experiments, an
 That's the argument of our paper in one example. Let's look into the details and why the distinction matters, where it comes from and what it would take to build agents that actually have it.
 
 ---
+
+## Exploration vs. adaptation
 
 We increasingly need agents with better exploratory skills, and it's easy to mistake an LLM sampling diverse outputs for curiosity. The vocabulary comes from decades of reinforcement learning research, where it meant something specific.
 
