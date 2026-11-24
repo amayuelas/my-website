@@ -1,7 +1,6 @@
 ---
 title: "Sampling is not Curiosity"
 date: 2026-11-23
-tags: ["llms", "agents", "reinforcement-learning"]
 summary: Why diverse sampling in LLM agents is not the same as curiosity, and what it would take to build agents that actually learn from their own exploration — our NeurIPS 2026 spotlight position paper.
 ---
 

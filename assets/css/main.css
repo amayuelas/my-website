@@ -802,18 +802,6 @@ th {
     background-color: #3a3a3a;
 }
 
-/* Tag links shown at the bottom of pages/posts */
-.terms {
-    margin-top: 30px;
-    font-size: 0.9em;
-    color: var(--muted-color);
-}
-
-.terms a {
-    color: var(--muted-color);
-    margin-left: 8px;
-}
-
 /* Mobile Responsiveness (consolidated) */
 @media (max-width: 768px) {
     body {

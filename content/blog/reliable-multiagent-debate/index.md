@@ -1,7 +1,6 @@
 ---
 title: "Towards a Reliable and Trustworthy MultiAgent Debate"
 date: 2024-11-28
-tags: ["llms", "multi-agent", "security"]
 summary: We study adversarial attacks in multi-agent LLM debate, showing a single adversarial agent can persuade other models toward incorrect answers, and explore uncertainty-based methods to make multi-agent communication more reliable.
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Grounding LLM Reasoning with Knowledge Graphs"
 date: 2025-03-01
-tags: ["llms", "knowledge-graphs", "reasoning"]
 summary: We discuss the integration of LLMs with Knowledge Graphs (KGs) to ground their reasoning capabilities. It highlights the importance of KGs in providing structured knowledge that is interpretable and computationally efficient. The integration of KGs with LLMs helps in reducing hallucinations and ensuring that the generated outputs are grounded in verifiable data.
 ---
 

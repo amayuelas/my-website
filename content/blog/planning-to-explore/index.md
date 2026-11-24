@@ -1,7 +1,6 @@
 ---
 title: "Planning to Explore: Curiosity-Driven Planning for LLM Test Generation"
 date: 2026-04-14
-tags: ["llms", "agents", "reinforcement-learning"]
 summary: How curiosity-driven planning, grounded in a 35-year thread of information-theoretic exploration, helps LLMs break through the coverage plateau in automated test generation.
 ---
 

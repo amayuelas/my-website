@@ -3,7 +3,6 @@ title: "Exploring the Frontier of Uncertainty with Large Language Models: The Ro
 date: 2024-06-20
 slug: "knowledge-of-knowledge"
 aliases: ["/blog/knowledge-of-knowledge-copy/"]
-tags: ["llms", "uncertainty"]
 summary: LLMs tend to be overconfident, always providing an answer to the user's query, even when the model is unsure about the answer. What happens when we ask the LLMs questions for which the answer is unclear even to humans?
 ---
 

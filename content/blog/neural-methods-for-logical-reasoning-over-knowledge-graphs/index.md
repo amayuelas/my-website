@@ -1,7 +1,6 @@
 ---
 title: "Neural Methods for Logical Reasoning over Knowledge Graphs"
 date: 2022-11-13
-tags: ["knowledge-graphs", "reasoning"]
 summary: In this work, we explore and try to improve how we can answer complex logical queries over knowledge graphs. We call them complex logical queries because the questions can be decomposed into multiple logical statements to reach the final answer.  
 ---
 
